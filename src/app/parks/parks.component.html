@@ -1,1 +1,8 @@
-<p>parks works!</p>
+<!-- based off paramater is what resort will display -->
+<h1>{{resort}}</h1>
+<div class="park-page" *ngIf='parks'>
+    <div class="park-tile" *ngFor='let park of parks'>
+        <img class="park-img" src="{{park.img}}" alt="">
+        <p>{{ park.name}}</p>
+    </div>
+</div>
