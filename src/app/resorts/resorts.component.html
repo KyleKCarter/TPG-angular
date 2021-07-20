@@ -1,0 +1,7 @@
+<div *ngIf="resorts">
+    <p>resorts works!</p>
+    <div *ngFor="let resort of resorts">
+        <!-- <a routerLink="['/resorts/', resort.name]">{{ resort.name }}</a> -->
+        <a routerLink="{{resort.name}}">{{ resort.name }}</a>
+    </div>
+</div>
