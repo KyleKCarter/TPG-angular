@@ -1,0 +1,11 @@
+{
+    "rides": [
+        {
+            "id": 0,
+            "name": "Astro Orbiter",
+            "type": "Slow Rides, Spinning",
+            "video": "",
+            "awt": ""
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+.park-page {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.park-tile {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    width: 400px;
+}
+
+.park-img {
+    width: 250px;
+}

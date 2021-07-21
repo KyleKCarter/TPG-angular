@@ -1,0 +1,18 @@
+.resort-page {
+    display: flex;
+    justify-content: space-around;
+}
+
+.resort-tile {
+    display: flex;
+    flex-direction: column;
+}
+
+.resort-name {
+    text-align: center;
+    margin-top: 5px;
+}
+
+.resort-img{
+    width: 400px;
+}
