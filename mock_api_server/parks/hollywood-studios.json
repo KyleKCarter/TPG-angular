@@ -2,8 +2,89 @@
     "rides": [
         {
             "id": 0,
-            "name": "",
-            "type": "",
+            "name": "Alien Swirling Saucers",
+            "type": "Spinning",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 1,
+            "name": "Lightning McQueen's Racing Academy",
+            "type": "No Idea",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 2,
+            "name": "Mickey & Minnie's Runaway Railway",
+            "type": "Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 3,
+            "name": "Millennium Falcon: Smugglers Run",
+            "type": "Thrill Ride, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 4,
+            "name": "Muppet Vision 3D",
+            "type": "Indoor, Stage Shows",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 5,
+            "name": "Rock 'n' Roller Coaster Starring Aerosmith",
+            "type": "Thrill Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 6,
+            "name": "Slinky Dog Dash",
+            "type": "Thrill Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 7,
+            "name": "Star Tours - The Adventure Continues",
+            "type": "Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 8,
+            "name": "Star Wars: Rise of the Resistance",
+            "type": "Thrill Ride, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 9,
+            "name": "The Twilight Zone Tower of Terror",
+            "type": "Thrill Ride, Dark, Indoor, Scary",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 10,
+            "name": "Toy Story Mania!",
+            "type": "Spinning, Indoor, Interactive",
+            "img": "",
             "video": "",
             "awt": ""
         }
