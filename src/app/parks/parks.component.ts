@@ -11,6 +11,7 @@ export class ParksComponent implements OnInit {
   universalStudiosOrlando: boolean;
   resort: any;
   parks: any;
+  rides: any;
 
   constructor(private route: ActivatedRoute) { }
 
@@ -75,6 +76,11 @@ export class ParksComponent implements OnInit {
         }
       ]
     }
+  }
+
+  getRides() {
+    // function get's and set's the ride based off of the park
+
   }
 
 }
