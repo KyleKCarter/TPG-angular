@@ -2,8 +2,105 @@
     "rides": [
         {
             "id": 0,
-            "name": "",
-            "type": "",
+            "name": "Awesome Planet",
+            "type": "Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 1,
+            "name": "Frozen Ever After",
+            "type": "Small Drop, Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 2,
+            "name": "Gran Fiesta Tour Starring The Three Caballeros",
+            "type": "Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 3,
+            "name": "Impressions de France",
+            "type": "Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 4,
+            "name": "Journey Into Imagination With Figment",
+            "type": "Slow Ride, Dark, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 5,
+            "name": "Living with the Land",
+            "type": "Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 6,
+            "name": "Mission: SPACE",
+            "type": "Thrill RIde, Spinning, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 7,
+            "name": "Reflections of China",
+            "type": "Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 8,
+            "name": "Soarin' Around the World",
+            "type": "Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 9,
+            "name": "Spaceship Earth",
+            "type": "Slow Ride, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 10,
+            "name": "Test Track",
+            "type": "Thrill Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 11,
+            "name": "The American Adventure",
+            "type": "Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 12,
+            "name": "The Seas with Nemo & Friends",
+            "type": "Slow Ride, Indoor",
+            "img": "",
             "video": "",
             "awt": ""
         }

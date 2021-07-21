@@ -2,8 +2,113 @@
     "rides": [
         {
             "id": 0,
-            "name": "",
-            "type": "",
+            "name": "Despicable Me Minion Mayhem",
+            "type": "Indoor, Slow Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 1,
+            "name": "E.T. Adventure",
+            "type": "Slow Ride, Dark, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 2,
+            "name": "Fast And Furious - Supercharged",
+            "type": "Thrill Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 3,
+            "name": "Harry Potter and the Escape from Gringotts",
+            "type": "Thrill Ride, Indoor, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 4,
+            "name": "Hogwarts Express",
+            "type": "Slow Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 5,
+            "name": "Hollywood Rip Ride Rockit",
+            "type": "Thrill Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 6,
+            "name": "Kang & Kodos' Twirl 'n' Hurl",
+            "type": "Spinning",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 7,
+            "name": "MEN IN BLACK Alien Attack",
+            "type": "Spinning, Thrill Ride, Interactive, Dark, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 8,
+            "name": "Race Through New York Starring Jimmy Fallon",
+            "type": "Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 9,
+            "name": "Revenge of the Mummy",
+            "type": "Indoor, Thrill Ride, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 10,
+            "name": "Shrek 4-D",
+            "type": "Indoor, Stage Show",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 11,
+            "name": "The Simpsons Ride",
+            "type": "Indoor, Thrill Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 12,
+            "name": "TRANSFORMERS: The Ride 3-D",
+            "type": "Indoor, Thrill Ride, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 13,
+            "name": "Woody Woodpecker's Nuthouse Coaster",
+            "type": "Kids, Slow Ride",
+            "img": "",
             "video": "",
             "awt": ""
         }

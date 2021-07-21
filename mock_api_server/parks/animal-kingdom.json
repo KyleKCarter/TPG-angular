@@ -2,8 +2,73 @@
     "rides": [
         {
             "id": 0,
-            "name": "",
-            "type": "",
+            "name": "Avatar Flight of Passage",
+            "type": "Thrill Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 1,
+            "name": "DINOSAUR",
+            "type": "Thrill Ride, Dark, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 2,
+            "name": "Expedition Everest - Legend of the Forbidden Mountain",
+            "type": "Thrill Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 3,
+            "name": "It's Tough to be a Bug!",
+            "type": "Stage Shows, Dark",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 4,
+            "name": "Kali River Rapids",
+            "type": "Thrill Ride, Water Ride",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 5,
+            "name": "Kilimanjaro Safaris",
+            "type": "Slow Ride, Animal Encounters",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 6,
+            "name": "Na'vi River Journey",
+            "type": "Slow Ride, Indoor",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 7,
+            "name": "TriceraTop Spin",
+            "type": " Slow Ride, Spinning",
+            "img": "",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 8,
+            "name": "Wildlife Express Train",
+            "type": "Slow Ride",
+            "img": "",
             "video": "",
             "awt": ""
         }
