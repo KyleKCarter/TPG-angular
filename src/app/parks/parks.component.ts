@@ -1,6 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
+//Services
+import { ParkService } from '../service/park.service';
+
+//Models
+import { RideResponse } from '../models/rides.model';
+
 @Component({
   selector: 'app-parks',
   templateUrl: './parks.component.html',
@@ -11,9 +17,12 @@ export class ParksComponent implements OnInit {
   universalStudiosOrlando: boolean;
   resort: any;
   parks: any;
-  rides: any;
+  rides: RideResponse;
 
-  constructor(private route: ActivatedRoute) { }
+  constructor(
+    private route: ActivatedRoute,
+    private _parkService: ParkService
+  ) { }
 
   ngOnInit(): void {
     this.setResort();
@@ -80,7 +89,11 @@ export class ParksComponent implements OnInit {
 
   getRides() {
     // function get's and set's the ride based off of the park
-
+    this._parkService.getMKRides().subscribe(( response: RideResponse) => {
+      if (response) {
+        console.log(response)
+      }
+    })
   }
 
 }

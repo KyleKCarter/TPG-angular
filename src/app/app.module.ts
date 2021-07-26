@@ -10,6 +10,7 @@ import { NavComponent } from './nav/nav.component';
 import { ResortsComponent } from './resorts/resorts.component';
 import { ParksComponent } from './parks/parks.component';
 import { NotfoundComponent } from './notfound/notfound.component';
+import { ParkService } from './service/park.service';
 
 @NgModule({
   declarations: [
@@ -43,7 +44,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
       }
     ])
   ],
-  providers: [],
+  providers: [ParkService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

@@ -9,6 +9,7 @@
 
 # dependencies
 /node_modules
+/mock_api_server/node_modules
 
 # profiling files
 chrome-profiler-events*.json
