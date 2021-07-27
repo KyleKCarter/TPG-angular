@@ -1,12 +1,20 @@
 <!-- based off paramater is what resort will display -->
 <h1>{{resort}}</h1>
 <div class="park-page" *ngIf='parks'>
-    <div class="park-tile" *ngFor='let park of parks'>
+    <!-- <div class="park-tile" *ngFor='let park of parks' (click)="getRides()">
         <img class="park-img" src="{{park.img}}" alt="">
-        <p>{{ park.name}}</p>
-    </div>
-    <!-- <div *ngIf='rides'>
-        <video src=""></video>
-        <p>Ride Name</p>
+        <p>{{ park.park}}</p>
     </div> -->
+    <div *ngIf='WDW'>
+        <div class="park-tile"  (click)="getRides()" *ngFor='let park of WDW'>
+            <img class="park-img" src="{{park.img}}" alt="">
+            <p>{{ park.park}}</p>
+        </div>
+    </div>
+    <div *ngIf='UO'>
+        <div class="park-tile"  (click)="getRides()" *ngFor='let park of UO'>
+            <img class="park-img" src="{{park.img}}" alt="">
+            <p>{{ park.park}}</p>
+        </div>
+    </div>
 </div>

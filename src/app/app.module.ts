@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module'
 import { RouterModule } from '@angular/router';
@@ -11,6 +12,7 @@ import { ResortsComponent } from './resorts/resorts.component';
 import { ParksComponent } from './parks/parks.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 import { ParkService } from './service/park.service';
+import { RidesComponent } from './rides/rides.component';
 
 @NgModule({
   declarations: [
@@ -19,10 +21,14 @@ import { ParkService } from './service/park.service';
     NavComponent,
     ResortsComponent,
     ParksComponent,
-    NotfoundComponent
+    NotfoundComponent,
+    RidesComponent
 
   ],
   imports: [
+    BrowserModule,
+    HttpClientModule,
+    AppRoutingModule,
     BrowserModule,
     // AppRoutingModule,
     RouterModule.forRoot([

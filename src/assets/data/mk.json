@@ -1,0 +1,177 @@
+[
+    {
+        "id": 0,
+        "name": "Astro Orbiter",
+        "type": "Slow Rides, Spinning",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 1,
+        "name": "Big Thunder Mountain Railroad",
+        "type": "Small Drops, Thrill Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 2,
+        "name": "Buzz Lightyear's Space Ranger Spin",
+        "type": "Slow Ride, Spinning, Interactive, Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 3,
+        "name": "Country Bear Jamboree",
+        "type": "Stage Shows",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 4,
+        "name": "Dumbo The Flying Elephant",
+        "type": "Spinning, Slow Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 5,
+        "name": "Haunted Mansion",
+        "type": "Slow Ride, Dark, Interactive",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 6,
+        "name": "It's A Small World",
+        "type": "Slow Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 7,
+        "name": "Jungle Cruise",
+        "type": "Slow Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 8,
+        "name": "Liverty Square Riverboat",
+        "type": "Slow Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 9,
+        "name": "Mad Tea Party",
+        "type": "Spinning",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 10,
+        "name": "Mickey's PhilharMagic",
+        "type": "Indoor, Stage Shows",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 11,
+        "name": "Peter Pan's Flight",
+        "type": "Slow Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 12,
+        "name": "Pirates of the Caribbean",
+        "type": "Small Drops, Slow Rides, Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 13,
+        "name": "Prince Charming Regal Carrousel",
+        "type": "Slow Rides, Spinning",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 14,
+        "name": "Seven Dwarfs Mine Train",
+        "type": "Thrill Rides",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 15,
+        "name": "Space Mountain",
+        "type": "Thrill Rides, Dark, Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 16,
+        "name": "Splash Mountain",
+        "type": "Thrill Ride, Water Ride",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 17,
+        "name": "The Barnstormer",
+        "type": "Small Drops",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 18,
+        "name": "The Hall of Presidents",
+        "type": "Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 19,
+        "name": "The Magic Carpets of Aladdin",
+        "type": "Spinning",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 20,
+        "name": "The Many Adventures of Winnie the Pooh",
+        "type": "Slow Ride, Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 21,
+        "name": "Tomorrowland Transit Authority PeopleMover",
+        "type": "Slow Ride",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 22,
+        "name": "Under the Sear ~ Journey of The Little Mermaid",
+        "type": "Slow Ride, Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 23,
+        "name": "Walt Disney's Carousel of Progress",
+        "type": "Slow Ride, Indoor",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 24,
+        "name": "Walt Disney's Enchanted Tiki Room",
+        "type": "Indoor",
+        "video": "",
+        "awt": ""
+    }
+]
