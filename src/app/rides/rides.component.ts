@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { RideResponse } from '../models/rides.model';
+import { ParkService } from '../service/park.service';
+
 
 @Component({
   selector: 'app-rides',
@@ -6,10 +10,37 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rides.component.css']
 })
 export class RidesComponent implements OnInit {
+  park: any;
+  rides: RideResponse;
 
-  constructor() { }
+  constructor(
+    private route: ActivatedRoute,
+    private _parkService: ParkService
+  ) { }
 
   ngOnInit(): void {
+    this.setPark();
+  }
+
+  setPark(): void {
+    // Function will set what display is shown
+    this.route.paramMap
+      .subscribe(params => {
+        this.park = params.get('park')
+        console.log(this.park)
+      });
+
+    this.getRides();
+  }
+
+  getRides(): void {
+    // function get's and set's the ride based off of the park
+    // if(park === 'Magic Kingdom') {
+    this._parkService.getMKRides(this.park).subscribe(response => {
+      if (response) {
+        this.rides = response
+      }
+    })
   }
 
 }

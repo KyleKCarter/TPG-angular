@@ -1,0 +1,146 @@
+[
+    {
+        "id": 0,
+        "name": "Caro-Seuss-el",
+        "type": "Slow Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 1,
+        "name": "Doctor Doom's Fearfall",
+        "type": "Thrill Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 2,
+        "name": "Dudley Do-Right's Ripsaw Falls",
+        "type": "Water Ride, Thrill Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 3,
+        "name": "Flight of the Hippogriff",
+        "type": "Thrill Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 4,
+        "name": "Hagrid's Magical Creatures Motobike Adventure",
+        "type": "Thrill Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 5,
+        "name": "Harry Potter and the Forbidden Journey",
+        "type": "Thrill Ride, Dark, Indoor",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 6,
+        "name": "Hogwarts Express",
+        "type": "Slow Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 7,
+        "name": "Jurassic Park River Adventure",
+        "type": "Thrill Ride, Water Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 8,
+        "name": "Jurassic World VelociCoaster",
+        "type": "Thrill Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 9,
+        "name": "One Fish, Two Fish, Red Fish, Blue Fish",
+        "type": "Slow Ride, Spinning",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 10,
+        "name": "Popeye & Bluto's Bilge-Rat Barges",
+        "type": "Thrill Ride, Water Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 11,
+        "name": "Pteranodon Flyers",
+        "type": "Slow Ride, Kids",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 12,
+        "name": "Skull Island: Reign of Kong",
+        "type": "Thrill Ride, Indoor, Dark",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 13,
+        "name": "Storm Force Accelatron",
+        "type": "Spinning",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 14,
+        "name": "The Amazing Adventures of Spider-Man",
+        "type": "Thrill Ride, Indoor, Dark",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 15,
+        "name": "The Cat in the Hat",
+        "type": "Slow Ride, Indoor",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 16,
+        "name": "The High in the Sky Seuss Trolley Train Ride!",
+        "type": "Slow Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    },
+    {
+        "id": 17,
+        "name": "The Incredible Hulk Coaster",
+        "type": "Thrill Ride",
+        "img": "",
+        "video": "",
+        "awt": ""
+    }
+]

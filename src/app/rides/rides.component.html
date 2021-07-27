@@ -1,1 +1,9 @@
-<p>rides works!</p>
+<div *ngIf='rides'>
+    <h2 class="park-title">{{park}}</h2>
+    <div class="ride-page">
+        <div class="ride-tile" *ngFor="let ride of rides">
+            <img class="ride-img" src="{{ride.img}}" alt="">
+            <div>{{ride.name}}</div>
+        </div>
+    </div>
+</div>

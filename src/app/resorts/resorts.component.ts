@@ -26,10 +26,7 @@ export class ResortsComponent implements OnInit {
     //route that gives us all of the paramaters in this route
     this.route.paramMap
       .subscribe(params => {
-        // console.log(params)
         let id = +params.get('id')
-        // service.getResort(id);
-        console.log(id);
       });
   }
 

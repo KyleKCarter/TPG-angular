@@ -5,14 +5,18 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module'
 import { RouterModule } from '@angular/router';
 
+//components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { NavComponent } from './nav/nav.component';
 import { ResortsComponent } from './resorts/resorts.component';
 import { ParksComponent } from './parks/parks.component';
-import { NotfoundComponent } from './notfound/notfound.component';
-import { ParkService } from './service/park.service';
 import { RidesComponent } from './rides/rides.component';
+import { NotfoundComponent } from './notfound/notfound.component';
+
+//service
+import { ResortService } from './service/resort.service';
+import { ParkService } from './service/park.service';
 
 @NgModule({
   declarations: [
@@ -30,27 +34,12 @@ import { RidesComponent } from './rides/rides.component';
     HttpClientModule,
     AppRoutingModule,
     BrowserModule,
-    // AppRoutingModule,
-    RouterModule.forRoot([
-      {
-        path: '',
-        component: HomeComponent
-      },
-      {
-        path: 'resorts/:park',
-        component: ParksComponent
-      },
-      {
-        path: 'resorts',
-        component: ResortsComponent
-      },
-      {
-        path: '**',
-        component: NotfoundComponent
-      }
-    ])
+    AppRoutingModule
   ],
-  providers: [ParkService],
+  providers: [
+    ParkService,
+    ResortService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
