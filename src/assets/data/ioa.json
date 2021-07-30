@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Caro-Seuss-el",
         "type": "Slow Ride",
-        "img": "",
+        "img": "https://static.wikia.nocookie.net/seuss/images/4/44/Caro-suess-el-universal-islands-of-adventure-692-oi.jpg/revision/latest?cb=20170116220429",
         "video": "",
         "awt": ""
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "name": "Doctor Doom's Fearfall",
         "type": "Thrill Ride",
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/8/82/Marvel_Super_Hero_Island_23.jpg",
         "video": "",
         "awt": ""
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "name": "Dudley Do-Right's Ripsaw Falls",
         "type": "Water Ride, Thrill Ride",
-        "img": "",
+        "img": "https://a.cdn-hotels.com/gdcs/production25/d844/a80afc51-c540-4380-a82c-f16b5e3bcd9b.jpg",
         "video": "",
         "awt": ""
     },
@@ -27,7 +27,7 @@
         "id": 3,
         "name": "Flight of the Hippogriff",
         "type": "Thrill Ride",
-        "img": "",
+        "img": "http://www.floribobs.com/images/flight-hippogriff-ride-orlando-coaster1-c-00.jpg",
         "video": "",
         "awt": ""
     },
@@ -35,7 +35,7 @@
         "id": 4,
         "name": "Hagrid's Magical Creatures Motobike Adventure",
         "type": "Thrill Ride",
-        "img": "",
+        "img": "https://www.slashfilm.com/wp/wp-content/images/Hagrids-Magical-Creatures-Motorbike-Adventure-1.jpg",
         "video": "",
         "awt": ""
     },
@@ -43,7 +43,7 @@
         "id": 5,
         "name": "Harry Potter and the Forbidden Journey",
         "type": "Thrill Ride, Dark, Indoor",
-        "img": "",
+        "img": "https://static.wikia.nocookie.net/warner-bros-entertainment/images/1/1f/Universal%27s_Islands_of_Adventure_Harry_Potter_%26_the_Forbidden_Journey.jpg/revision/latest?cb=20200624231237",
         "video": "",
         "awt": ""
     },
@@ -51,7 +51,7 @@
         "id": 6,
         "name": "Hogwarts Express",
         "type": "Slow Ride",
-        "img": "",
+        "img": "https://cache.undercovertourist.com/media_file/hogwarts-express-hogsmeade-9122.jpg",
         "video": "",
         "awt": ""
     },
@@ -59,7 +59,7 @@
         "id": 7,
         "name": "Jurassic Park River Adventure",
         "type": "Thrill Ride, Water Ride",
-        "img": "",
+        "img": "https://static.wikia.nocookie.net/universal-orlando/images/5/5e/Jurassic_Park_River_Adventure_1.jpg/revision/latest?cb=20180911172807",
         "video": "",
         "awt": ""
     },

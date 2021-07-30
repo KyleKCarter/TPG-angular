@@ -17,6 +17,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 //service
 import { ResortService } from './service/resort.service';
 import { ParkService } from './service/park.service';
+import { AttractionComponent } from './attraction/attraction.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { ParkService } from './service/park.service';
     ResortsComponent,
     ParksComponent,
     NotfoundComponent,
-    RidesComponent
+    RidesComponent,
+    AttractionComponent
 
   ],
   imports: [

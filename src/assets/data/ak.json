@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Avatar Flight of Passage",
         "type": "Thrill Ride, Indoor",
-        "img": "",
+        "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/434/244/75/dam/wdpro-assets/parks-and-tickets/attractions/animal-kingdom/flight-of-passage/flight-of-passage-in-ride-16x9.jpg?1584753521171",
         "video": "",
         "awt": ""
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "name": "DINOSAUR",
         "type": "Thrill Ride, Dark, Indoor",
-        "img": "",
+        "img": "https://cdn.vox-cdn.com/thumbor/A4JA5ABzT5T6xzwGSkfPrLuQFL4=/1400x1050/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/19545811/dinosaur_00.jpg",
         "video": "",
         "awt": ""
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "name": "Expedition Everest - Legend of the Forbidden Mountain",
         "type": "Thrill Ride",
-        "img": "",
+        "img": "https://i.insider.com/5b5b47a5bda1c77c008b45d1",
         "video": "",
         "awt": ""
     },
@@ -27,7 +27,7 @@
         "id": 3,
         "name": "It's Tough to be a Bug!",
         "type": "Stage Shows, Dark",
-        "img": "",
+        "img": "https://upload.wikimedia.org/wikipedia/commons/1/14/Its_Tough_to_be_a_Bug_Sign_%282598576385%29.jpg",
         "video": "",
         "awt": ""
     },
@@ -35,7 +35,7 @@
         "id": 4,
         "name": "Kali River Rapids",
         "type": "Thrill Ride, Water Ride",
-        "img": "",
+        "img": "https://www.wdw-magazine.com/wp-content/uploads/2020/04/Kali-River-Rapids-Judd5.jpg",
         "video": "",
         "awt": ""
     },
@@ -43,7 +43,7 @@
         "id": 5,
         "name": "Kilimanjaro Safaris",
         "type": "Slow Ride, Animal Encounters",
-        "img": "",
+        "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/630/354/90/media/disneyparksjapan-prod/disneyparksjapan_v0001/1/media/wdw/attractions/kilimanjaro-safaris-00.jpg",
         "video": "",
         "awt": ""
     },
@@ -51,7 +51,7 @@
         "id": 6,
         "name": "Na'vi River Journey",
         "type": "Slow Ride, Indoor",
-        "img": "",
+        "img": "http://diskingdom.com/wp-content/uploads/2016/02/Screen-Shot-2016-02-16-at-12.59.20-AM.png",
         "video": "",
         "awt": ""
     },
@@ -59,7 +59,7 @@
         "id": 7,
         "name": "TriceraTop Spin",
         "type": " Slow Ride, Spinning",
-        "img": "",
+        "img": "https://www.wdwinfo.com/wp-content/uploads/2018/08/tricera-top-spin.jpg",
         "video": "",
         "awt": ""
     },
@@ -67,7 +67,7 @@
         "id": 8,
         "name": "Wildlife Express Train",
         "type": "Slow Ride",
-        "img": "",
+        "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/animal-kingdom/wildlife-express-train/wildlife-express-train-gallery00.jpg?1559891925881",
         "video": "",
         "awt": ""
     }

@@ -10,7 +10,7 @@ import { ParkService } from '../service/park.service';
   styleUrls: ['./rides.component.css']
 })
 export class RidesComponent implements OnInit {
-  park: any;
+  park: string;
   rides: RideResponse;
 
   constructor(
@@ -35,8 +35,7 @@ export class RidesComponent implements OnInit {
 
   getRides(): void {
     // function get's and set's the ride based off of the park
-    // if(park === 'Magic Kingdom') {
-    this._parkService.getMKRides(this.park).subscribe(response => {
+    this._parkService.getRides(this.park).subscribe(response => {
       if (response) {
         this.rides = response
       }
