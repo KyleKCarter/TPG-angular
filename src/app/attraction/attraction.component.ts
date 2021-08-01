@@ -14,8 +14,9 @@ export class AttractionComponent implements OnInit {
 
   attraction: string;
   park: string;
+  // rides: RideResponse;
   rides: any;
-  ride = [];
+  ride: any;
 
   constructor(
     private route: ActivatedRoute,
@@ -29,24 +30,22 @@ export class AttractionComponent implements OnInit {
         this.park = params.get('park')
         console.log(this.attraction)
       });
-      this.getRide();
       this.getAttraction();
   }
 
-  getRide(): void {
+  getAttraction(): void {
     // function get's the ride based off attraction selected
     this._parkService.getRides(this.park).subscribe(response => {
       if (response) {
         this.rides = response
       }
       console.log(this.rides)
+      for (let i = 0; i <= this.rides.length; i++) {
+        if (this.rides[i].name === this.attraction) {
+          this.ride = this.rides[i]
+        }
+      }
     })
-  }
-
-  getAttraction(): void {
-    let name = this.attraction;
-    this.ride = this.rides.filter(name);
-    console.log(this.ride)
   }
 
 }
