@@ -1,6 +1,11 @@
-<div>
-    <div>
-        <img src="{{ride.img}}" alt="">
+<div class="attraction-page">
+    <div class="attraction-content">
+        <img class="attraction-image" src="{{ride.img}}" alt="">
+        <video src="{{ride.video}}"></video>
+    </div>
+    <div class="attraction-data">
         <h3>{{ride.name}}</h3>
+        <p>{{ride.type}}</p>
+        <p>Average wait time: {{ride.awt}}</p>
     </div>
 </div>

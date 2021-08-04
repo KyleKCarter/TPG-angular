@@ -38,11 +38,11 @@ export class AttractionComponent implements OnInit {
     this._parkService.getRides(this.park).subscribe(response => {
       if (response) {
         this.rides = response
-      }
-      console.log(this.rides)
-      for (let i = 0; i <= this.rides.length; i++) {
-        if (this.rides[i].name === this.attraction) {
-          this.ride = this.rides[i]
+        for (let i = 0; i <= this.rides.length; i++) {
+          if (this.rides[i].name === this.attraction) {
+            this.ride = this.rides[i]
+          }
+          console.log(this.rides)
         }
       }
     })
