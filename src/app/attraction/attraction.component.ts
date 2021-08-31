@@ -22,8 +22,6 @@ export class AttractionComponent implements OnInit {
   // rides: RideResponse;
   rides: any;
   ride: any;
-  // video = "WMMiZFPYg6M";
-  // video = "sf8NARziZZM";
 
   constructor(
     private route: ActivatedRoute,

@@ -14,6 +14,7 @@ import { NavComponent } from './nav/nav.component';
 import { ResortsComponent } from './resorts/resorts.component';
 import { ParksComponent } from './parks/parks.component';
 import { RidesComponent } from './rides/rides.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 
 //service
@@ -30,8 +31,8 @@ import { AttractionComponent } from './attraction/attraction.component';
     ParksComponent,
     NotfoundComponent,
     RidesComponent,
-    AttractionComponent
-
+    AttractionComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,

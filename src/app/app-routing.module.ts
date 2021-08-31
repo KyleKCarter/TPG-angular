@@ -8,6 +8,7 @@ import { NotfoundComponent } from './notfound/notfound.component';
 import { ParksComponent } from './parks/parks.component';
 import { ResortsComponent } from './resorts/resorts.component';
 import { RidesComponent } from './rides/rides.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 
 export const routes: Routes = [
   {
@@ -29,6 +30,10 @@ export const routes: Routes = [
   {
     path: 'resorts',
     component: ResortsComponent
+  },
+  {
+    path: 'schedule',
+    component: ScheduleComponent
   },
   {
     path: '**',
