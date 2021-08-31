@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module'
 import { RouterModule } from '@angular/router';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+
 
 //components
 import { AppComponent } from './app.component';
@@ -36,7 +38,8 @@ import { AttractionComponent } from './attraction/attraction.component';
     HttpClientModule,
     AppRoutingModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule
   ],
   providers: [
     ParkService,

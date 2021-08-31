@@ -1,7 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
+//models
 import { ParksResponse } from '../models/parks.model';
 import { RideResponse } from '../models/rides.model';
+
+//service
 import { ParkService } from '../service/park.service';
 
 
@@ -17,10 +22,13 @@ export class AttractionComponent implements OnInit {
   // rides: RideResponse;
   rides: any;
   ride: any;
+  // video = "WMMiZFPYg6M";
+  // video = "sf8NARziZZM";
 
   constructor(
     private route: ActivatedRoute,
-    private _parkService: ParkService
+    private _parkService: ParkService,
+    private _location: Location
   ) { }
 
   ngOnInit(): void {
@@ -46,6 +54,10 @@ export class AttractionComponent implements OnInit {
         }
       }
     })
+  }
+
+  backClick(): void {
+    this._location.back()
   }
 
 }

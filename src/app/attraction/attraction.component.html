@@ -1,10 +1,18 @@
 <div class="attraction-page">
+    <button (click)="backClick()">Back</button>
     <div class="attraction-content">
         <img class="attraction-image" src="{{ride.img}}" alt="">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/WMMiZFPYg6M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    </div>
-    <div class="attraction-data">
-        <h3>{{ride.name}}</h3>
-        <p>{{ride.type}}</p>
-        <p>Average wait time: {{ride.awt}}</p>
+        <youtube-player 
+            videoId="{{ride.video}}" 
+            suggestedQuality="highres" 
+            [height]="400" 
+            [width]="600"
+            [startSeconds]="1" 
+            [endSeconds]="60">
+        </youtube-player>
+        <div class="attraction-data">
+            <h3>{{ride.name}}</h3>
+            <p>{{ride.type}}</p>
+            <p>Average wait time: {{ride.awt}}</p>
+        </div>
     </div>
-</div>

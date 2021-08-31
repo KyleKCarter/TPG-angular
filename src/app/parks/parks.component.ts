@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 
 //Services
 import { ParkService } from '../service/park.service';
@@ -25,11 +26,16 @@ export class ParksComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private _resortService: ResortService
+    private _resortService: ResortService,
+    private _location: Location
   ) { }
 
   ngOnInit(): void {
     this.setResort();
+  }
+
+  backClick(): void {
+    this._location.back()
   }
 
   setResort(): void {
