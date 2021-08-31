@@ -4,7 +4,7 @@
             "id": 0,
             "name": "Awesome Planet",
             "type": "Indoor",
-            "img": "",
+            "img": "https://wdwnt-buzzy.imgix.net/2020/01/awesome-planet-fota-debut-2020_2.jpg?auto=compress%2Cformat&ixlib=php-1.2.1&q=90",
             "video": "",
             "awt": ""
         },
@@ -12,7 +12,7 @@
             "id": 1,
             "name": "Frozen Ever After",
             "type": "Small Drop, Slow Ride, Indoor",
-            "img": "",
+            "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/410/205/75/dam/disney-world/attractions/epcot/frozen-ever-after/frozen-ever-after-olaf-anna-elsa-16x9.jpg?1574442294636",
             "video": "",
             "awt": ""
         },
@@ -20,7 +20,7 @@
             "id": 2,
             "name": "Gran Fiesta Tour Starring The Three Caballeros",
             "type": "Slow Ride, Indoor",
-            "img": "",
+            "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/gran-fiesta-tour/gran-fiesta-tour-starring-the-three-caballeros-gallery01.jpg?1551208051556",
             "video": "",
             "awt": ""
         },
@@ -28,7 +28,7 @@
             "id": 3,
             "name": "Impressions de France",
             "type": "Indoor",
-            "img": "",
+            "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/impressions-de-france/impressions-de-france-gallery01.jpg?1586806691062",
             "video": "",
             "awt": ""
         },
@@ -36,7 +36,7 @@
             "id": 4,
             "name": "Journey Into Imagination With Figment",
             "type": "Slow Ride, Dark, Indoor",
-            "img": "",
+            "img": "https://wdwnt.wpengine.com/wp-content/uploads/2018/03/dsc_0236.jpg",
             "video": "",
             "awt": ""
         },
@@ -44,7 +44,7 @@
             "id": 5,
             "name": "Living with the Land",
             "type": "Slow Ride, Indoor",
-            "img": "",
+            "img": "https://insidethemagic-119e2.kxcdn.com/wp-content/uploads/2019/08/living-with-the-land.jpg",
             "video": "",
             "awt": ""
         },
@@ -52,7 +52,7 @@
             "id": 6,
             "name": "Mission: SPACE",
             "type": "Thrill RIde, Spinning, Dark",
-            "img": "",
+            "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/mission-space/mission-space-gallery00.jpg?1559892121038",
             "video": "",
             "awt": ""
         },
@@ -60,7 +60,7 @@
             "id": 7,
             "name": "Reflections of China",
             "type": "Indoor",
-            "img": "",
+            "img": "https://www.wdwkingdom.com/wp-content/uploads/2015/07/Reflections-of-China-in-Circle-Vision-360-attraction-entrance-sign-China-Epcot-Disney-World-635x370.jpg",
             "video": "",
             "awt": ""
         },
@@ -68,7 +68,7 @@
             "id": 8,
             "name": "Soarin' Around the World",
             "type": "Slow Ride, Indoor",
-            "img": "",
+            "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/epcot/soarin/soarin-gallery07.jpg?1559892150947",
             "video": "",
             "awt": ""
         },
@@ -76,7 +76,7 @@
             "id": 9,
             "name": "Spaceship Earth",
             "type": "Slow Ride, Dark",
-            "img": "",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Spaceship_Earth_2.jpg/300px-Spaceship_Earth_2.jpg",
             "video": "",
             "awt": ""
         },
@@ -84,7 +84,7 @@
             "id": 10,
             "name": "Test Track",
             "type": "Thrill Ride",
-            "img": "",
+            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/disney-test-track-lead-1536784223.jpg",
             "video": "",
             "awt": ""
         },
@@ -92,7 +92,7 @@
             "id": 11,
             "name": "The American Adventure",
             "type": "Indoor",
-            "img": "",
+            "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/The_American_Adventure_%2823860708488%29.jpg/250px-The_American_Adventure_%2823860708488%29.jpg",
             "video": "",
             "awt": ""
         },
@@ -100,7 +100,7 @@
             "id": 12,
             "name": "The Seas with Nemo & Friends",
             "type": "Slow Ride, Indoor",
-            "img": "",
+            "img": "https://www.tripsavvy.com/thmb/Rw4toDwJxvq7hitAgM0uaCeUy2A=/2700x1793/filters:fill(auto,1)/The-Seas-with-Nemo-and-Friends-Ride-58936da03df78caebcbc00dd.jpg",
             "video": "",
             "awt": ""
         }

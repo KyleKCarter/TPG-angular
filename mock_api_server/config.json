@@ -1,0 +1,43 @@
+{
+    "mockDirectory": "./parks",
+    "quiet": false,
+    "port": "7878",
+    "latency": 200,
+    "enableSSL": false,
+    "allowedHeaders": ["Access-Control-Allow-Credentials", "true"],
+    "allowedHeaders": ["Content-Type", "Access-Control-Allow-Headers"],
+    "allowedHeaders": [
+        "Access-Control-Allow-Methods",
+        "POST, GET, PUT, DELETE, OPTIONS"
+    ],
+    "allowedHeaders": [
+        "Access-Control-Allow-Headers",
+        "Origin, accept-language, appversion, X-Requested-With, Content-Type, Accept, X-HTTP-Method-Override, Authorization, bizToken, client_id, CCPToken, devicePrint, blackbox, deviceTokenCookie, channelId, countryCode, businessCode, uuid, AMWResponse, TMXSessionId, categoryCode, tmxdigitalapplicationtype, biocatchsessionid"
+    ],
+    "webServices": {
+        "disney/magicKingdom": {
+            "mockFile": "magic-kingdom.json",
+            "verbs": ["get"]
+        },
+        "disney/epcot": {
+            "mockFile": "epcot.json",
+            "verbs": ["get"]
+        },
+        "disney/hollywoodStudios": {
+            "mockFile": "hollywood-studios.json",
+            "verbs": ["get"]
+        },
+        "disney/animalKingdom": {
+            "mockFile": "animal-kingdom.json",
+            "verbs": ["get"]
+        },
+        "universal/universalStudios": {
+            "mockFile": "universal-studios.json",
+            "verbs": ["get"]
+        },
+        "universal/islandsOfAdventure": {
+            "mockFile": "islands-of-adventure.json",
+            "verbs": ["get"]
+        }
+    }
+}

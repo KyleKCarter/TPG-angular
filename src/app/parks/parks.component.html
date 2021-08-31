@@ -1,12 +1,21 @@
 <!-- based off paramater is what resort will display -->
+<button (click)="backClick()">Back</button>
 <h1>{{resort}}</h1>
-<div class="park-page" *ngIf='parks'>
-    <div class="park-tile" *ngFor='let park of parks'>
-        <img class="park-img" src="{{park.img}}" alt="">
-        <p>{{ park.name}}</p>
+<div *ngIf='parks'>
+    <div class="park-page" *ngIf='disneyWorld'>
+        <div *ngFor='let park of WDW'>
+            <div class="park-tile" routerLink="{{park.park}}">
+                <img class="park-img" src="{{park.img}}" alt="">
+                <p>{{ park.park}}</p>
+            </div>
+        </div>
     </div>
-    <div *ngIf='rides'>
-        <video src=""></video>
-        <p>Ride Name</p>
+    <div class="park-page" *ngIf='universalStudiosOrlando'>
+        <div *ngFor='let park of UO'>
+            <div class="park-tile" routerLink="{{park.park}}">
+                <img class="park-img" src="{{park.img}}" alt="">
+                <p>{{ park.park}}</p>
+            </div>
+        </div>
     </div>
 </div>

@@ -1,0 +1,38 @@
+[
+    {
+      "id": 0,
+      "resort": "Walt Disney World",
+      "park": "Magic Kingdom",
+      "img": "https://cache.undercovertourist.com/blog/2020/07/0720-magic-kingdom-named-best.jpg"
+    },
+    {
+      "id": 1,
+      "resort": "Walt Disney World",
+      "park": "Epcot",
+      "img": "https://www.tripsavvy.com/thmb/Rn2dKFgXgw25chaMUSm_B1cvtcE=/3000x2018/filters:fill(auto,1)/GettyImages-2572620-593e9e2f3df78c537b0d8577.jpg"
+    },
+    {
+      "id": 2,
+      "resort": "Walt Disney World",
+      "park": "Hollywood Studios",
+      "img": "https://media2.fdncms.com/orlando/imager/u/original/2409999/1000w_disneyhwoodstudios.jpg"
+    },
+    {
+      "id": 3,
+      "resort": "Walt Disney World",
+      "park": "Animal Kingdom",
+      "img": "https://media-cdn.tripadvisor.com/media/photo-m/1280/1c/c1/a5/1d/mickey-minnie-pluto-sailing.jpg"
+    },
+    {
+      "id": 4,
+      "resort": "Universal Studios Orlando",
+      "park": "Universal Studios",
+      "img": "https://allears.net/wp-content/uploads/2021/02/2021-reopening-universal-orlando-mardi-gras-signs-2-scaled.jpg"
+    },
+    {
+      "id": 5,
+      "resort": "Universal Studios Orlando",
+      "park": "Islands of Adventure",
+      "img": "https://www.magictours.com/wp-content/uploads/Island-Adventure.jpg"
+    }
+  ]

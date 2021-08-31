@@ -1,0 +1,24 @@
+.park-title {
+    text-align: center;
+}
+
+.ride-page {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.ride-tile {
+    border: 1px solid grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    width: 400px;
+}
+
+.ride-img {
+    width: 250px;
+}

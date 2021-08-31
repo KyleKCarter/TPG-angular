@@ -1,0 +1,12 @@
+<div *ngIf='rides'>
+    <button (click)="backClick()">Back</button>
+    <h2 class="park-title">{{park}}</h2>
+    <div class="ride-page">
+        <div *ngFor="let ride of rides">
+            <div class="ride-tile" routerLink="{{ride.name}}">
+                <img class="ride-img" src="{{ride.img}}" alt="">
+                <div>{{ride.name}}</div>
+            </div>
+        </div>
+    </div>
+</div>
