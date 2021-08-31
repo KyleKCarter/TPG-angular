@@ -11,12 +11,12 @@ export class ResortsComponent implements OnInit {
     {
       id: 1,
       name: 'Disney World',
-      img: 'https://www.bestoforlando.com/common_resources/resize_library/wdw-parks-logo-1050x420.jpg'
+      img: 'assets/images/parks/wdw.jpeg'
     },
     {
       id: 2,
       name: 'Universal Studios Orlando',
-      img: 'https://www.orlandovacation.com/wp-content/uploads/2018/09/UniversalStudios-OrlandoVacation.png'
+      img: 'assets/images/parks/universalStudiosResort.png'
     }
   ]
 
