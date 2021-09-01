@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Despicable Me Minion Mayhem",
         "type": "Indoor, Slow Ride",
-        "img": "https://www.universalstudioshollywood.com/tridiondata/ush/en/us/files/images/universal-despicable-me-minion-mayhem-sign-802x535.jpg",
+        "img": "assets/images/us/despicableMe.webp",
         "video": "CL93026E3OI",
         "awt": ""
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "name": "E.T. Adventure",
         "type": "Slow Ride, Dark, Indoor",
-        "img": "https://blog.universalorlando.com/wp-content/uploads/2020/05/E.T.-Adventure-Ride.jpg",
+        "img": "assets/images/us/et.jpg",
         "video": "rFpMHO0cnHw",
         "awt": ""
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "name": "Fast And Furious - Supercharged",
         "type": "Thrill Ride, Indoor",
-        "img": "http://media.bizj.us/view/img/5409901/ffs-superbowl-attraction-pagedl961x421-961x421*1200xx745-421-72-0.jpg",
+        "img": "assets/images/us/fastAndFurious.jpeg",
         "video": "kavsxBGuBP8",
         "awt": ""
     },
@@ -27,7 +27,7 @@
         "id": 3,
         "name": "Harry Potter and the Escape from Gringotts",
         "type": "Thrill Ride, Indoor, Dark",
-        "img": "https://goosystemsglobal.com/wp-content/uploads/2016/08/potter-gringotts.jpg",
+        "img": "assets/images/us/escapeFromGringotts.jpeg",
         "video": "N8FSuOjoy8w",
         "awt": ""
     },
@@ -35,7 +35,7 @@
         "id": 4,
         "name": "Hogwarts Express",
         "type": "Slow Ride",
-        "img": "https://3.bp.blogspot.com/-R3uNF9CUB7M/W2VOLuJzYhI/AAAAAAABUao/vCJgST2iogknDLmUXz2hEfz4mjHJmgkXACEwYBhgL/s1600/Hogwarts%2BExpress%2BUniversal%2BStudios%2BFlorida%2B%252817%2529.png",
+        "img": "assets/images/us/hogwartsExpress.png",
         "video": "",
         "awt": ""
     },
@@ -43,7 +43,7 @@
         "id": 5,
         "name": "Hollywood Rip Ride Rockit",
         "type": "Thrill Ride",
-        "img": "https://blog.universalorlando.com/wp-content/uploads/2021/06/HRRR2.jpg",
+        "img": "assets/images/us/ripRideRockit.jpeg",
         "video": "TklUNH2tOWs",
         "awt": ""
     },
@@ -51,7 +51,7 @@
         "id": 6,
         "name": "Kang & Kodos' Twirl 'n' Hurl",
         "type": "Spinning",
-        "img": "https://live.staticflickr.com/3694/9572046809_f0422b9046_b.jpg",
+        "img": "assets/images/us/kangAndKodos.jpeg",
         "video": "FZ0Cx4eCUic",
         "awt": ""
     },
@@ -59,7 +59,7 @@
         "id": 7,
         "name": "MEN IN BLACK Alien Attack",
         "type": "Spinning, Thrill Ride, Interactive, Dark, Indoor",
-        "img": "https://blog.universalorlando.com/wp-content/uploads/2020/06/MEN-IN-BLACK-Alien-Attack-Ride.jpg",
+        "img": "assets/images/us/menInBlack.jpeg",
         "video": "5vh9TZEyc0U",
         "awt": ""
     },
@@ -67,7 +67,7 @@
         "id": 8,
         "name": "Race Through New York Starring Jimmy Fallon",
         "type": "Slow Ride, Indoor",
-        "img": "https://www.gannett-cdn.com/-mm-/9955d5ddd90030bbda208652abd8baf637735171/c=0-262-4491-2799/local/-/media/2017/03/07/Brevard/Brevard/636245010608236955-Jimmy-Fallon-New-York-ride-at-Universal-Orlando-1.jpg?width=3200&height=1808&fit=crop&format=pjpg&auto=webp",
+        "img": "assets/images/us/jimmyFallon.jpeg",
         "video": "Z1wtk4HHeu0",
         "awt": ""
     },
@@ -75,7 +75,7 @@
         "id": 9,
         "name": "Revenge of the Mummy",
         "type": "Indoor, Thrill Ride, Dark",
-        "img": "https://www.universalstudioshollywood.com/tridiondata/ush/en/us/files/images/universal-revenge-of-the-mummy-fire-802x535.jpg",
+        "img": "assets/images/us/theMummy.webp",
         "video": "Abu0j4d1TNw",
         "awt": ""
     },
@@ -83,7 +83,7 @@
         "id": 10,
         "name": "Shrek 4-D",
         "type": "Indoor, Stage Show",
-        "img": "https://www.tripsavvy.com/thmb/4axZsCRf5j_7axnjOm7Kw4rqGVc=/2280x2280/smart/filters:no_upscale()/Shrek-4-D-582799523df78c6f6a51cf17.jpg",
+        "img": "assets/images/us/shrek.jpeg",
         "video": "",
         "awt": ""
     },
@@ -91,7 +91,7 @@
         "id": 11,
         "name": "The Simpsons Ride",
         "type": "Indoor, Thrill Ride",
-        "img": "https://www.universalstudioshollywood.com/tridiondata/ush/en/us/files/images/universal-the-simpsons-ride-exterior-802x535.jpg",
+        "img": "assets/images/us/simpsonsRide.webp",
         "video": "WdwbGuEW_8U",
         "awt": ""
     },
@@ -99,7 +99,7 @@
         "id": 12,
         "name": "TRANSFORMERS: The Ride 3-D",
         "type": "Indoor, Thrill Ride, Dark",
-        "img": "https://blog-cdn.touringplans.com/blog/wp-content/uploads/2018/02/transformers_glover.jpg",
+        "img": "assets/images/us/transformers.jpeg",
         "video": "jeOfBbh3qAA",
         "awt": ""
     },
@@ -107,7 +107,7 @@
         "id": 13,
         "name": "Woody Woodpecker's Nuthouse Coaster",
         "type": "Kids, Slow Ride",
-        "img": "https://images.squarespace-cdn.com/content/v1/56b92fd6f8508249cabeff0a/1458587785780-Z0GHGMYEIQ4U1TNWWKJZ/woody-woodpeckers-nuthouse-coaster-ride.jpg?format=1000w",
+        "img": "assets/images/us/woodyWoodpeckersNuthouseCoaster.jpeg",
         "video": "rEys72mi1SA",
         "awt": ""
     }
