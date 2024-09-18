@@ -10,8 +10,8 @@ import { ParkService } from '../service/park.service';
   styleUrls: ['./rides.component.css']
 })
 export class RidesComponent implements OnInit {
-  park: string;
-  rides: RideResponse;
+  park!: string;
+  rides!: RideResponse;
 
   constructor(
     private route: ActivatedRoute,
@@ -26,7 +26,7 @@ export class RidesComponent implements OnInit {
     // Function will set what display is shown
     this.route.paramMap
       .subscribe(params => {
-        this.park = params.get('park')
+        this.park = params.get('park') || ''
         console.log(this.park)
       });
 
