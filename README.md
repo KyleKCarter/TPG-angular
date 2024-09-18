@@ -1,4 +1,5 @@
 # ThemeParkGuide
+Theme Park Guide is an app that improves your theme park experience by creating a personalized itinerary, helping you navigate attractions, dining, and entertainment to make the most of your day.
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.1.
 

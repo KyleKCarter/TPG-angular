@@ -17,13 +17,11 @@ import { ParkService } from '../service/park.service';
 })
 export class AttractionComponent implements OnInit {
 
-  attraction: string;
-  park: string;
+  attraction!: string;
+  park!: string;
   // rides: RideResponse;
   rides: any;
   ride: any;
-  // video = "WMMiZFPYg6M";
-  // video = "sf8NARziZZM";
 
   constructor(
     private route: ActivatedRoute,
@@ -34,8 +32,8 @@ export class AttractionComponent implements OnInit {
   ngOnInit(): void {
     this.route.paramMap
       .subscribe(params => {
-        this.attraction = params.get('attraction')
-        this.park = params.get('park')
+        this.attraction = params.get('attraction') || ''
+        this.park = params.get('park') || ''
         console.log(this.attraction)
       });
       this.getAttraction();

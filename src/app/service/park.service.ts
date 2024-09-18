@@ -19,12 +19,12 @@ export class ParkService {
   private _akUrl: string = '/assets/data/ak.json';
   private _usUrl: string = '/assets/data/us.json';
   private _ioaUrl: string = '/assets/data/ioa.json';
-  attraction: RideResponse;
-  rides: RideResponse;
+  attraction!: RideResponse;
+  rides!: RideResponse;
 
   constructor(private http: HttpClient) { }
 
-  getRides(park): Observable<RideResponse> {
+  getRides(park: string): Observable<RideResponse> {
     // return this.http.get('/disney/magicKingdom');
     if (park === "Magic Kingdom") {
       return this.http.get<RideResponse>(this._mkUrl);

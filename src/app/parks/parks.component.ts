@@ -16,13 +16,13 @@ import { ParksResponse } from '../models/parks.model';
   styleUrls: ['./parks.component.css']
 })
 export class ParksComponent implements OnInit {
-  disneyWorld: boolean;
-  universalStudiosOrlando: boolean;
+  disneyWorld!: boolean;
+  universalStudiosOrlando!: boolean;
   resort: any;
-  parks = [];
-  WDW: ParksResponse[];
-  UO: ParksResponse[];
-  rides: RideResponse;
+  parks: any;
+  WDW!: ParksResponse[];
+  UO!: ParksResponse[];
+  rides!: RideResponse;
 
   constructor(
     private route: ActivatedRoute,

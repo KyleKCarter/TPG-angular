@@ -3,7 +3,7 @@
         "id": 0,
         "name": "Alien Swirling Saucers",
         "type": "Spinning",
-        "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/disney-world/attractions/hollywood-studios/alien-swirling-saucers/toy-story-alien-swirling-saucers-entrance-16x9.jpg?1560801030851",
+        "img": "assets/images/hs/alienSwirlingSaucers.webp",
         "video": "",
         "awt": ""
     },
@@ -11,7 +11,7 @@
         "id": 1,
         "name": "Lightning McQueen's Racing Academy",
         "type": "No Idea",
-        "img": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/03/mnckjvbsdkfhdsijfdsg392fs.jpg",
+        "img": "assets/images/hs/lightningMcqueen.jpeg",
         "video": "VRElFD1UyBI",
         "awt": ""
     },
@@ -19,7 +19,7 @@
         "id": 2,
         "name": "Mickey & Minnie's Runaway Railway",
         "type": "Slow Ride, Indoor",
-        "img": "http://www.disneyfoodblog.com/wp-content/uploads/2019/04/mickey-and-minnies-runaway-railway-concept-art-imagineer-preview-marquee-2.jpg",
+        "img": "assets/images/hs/mickeyAndMinnie.jpeg",
         "video": "SvfypxnHD-o",
         "awt": ""
     },
@@ -27,7 +27,7 @@
         "id": 3,
         "name": "Millennium Falcon: Smugglers Run",
         "type": "Thrill Ride, Dark",
-        "img": "https://www.ocregister.com/wp-content/uploads/2019/03/OCR-L-DIS-MILLENNIUM-0323-01-1.jpg",
+        "img": "assets/images/hs/smugglersRun.jpeg",
         "video": "Dkd2DX1hVSI",
         "awt": ""
     },
@@ -35,7 +35,7 @@
         "id": 4,
         "name": "Muppet Vision 3D",
         "type": "Indoor, Stage Shows",
-        "img": "https://allears.net/wp-content/uploads/2018/11/Hollywood-Studios-Attraction-Sign-muppet-vison-3d-001.jpg",
+        "img": "assets/images/hs/muppetVision.jpeg",
         "video": "",
         "awt": ""
     },
@@ -43,7 +43,7 @@
         "id": 5,
         "name": "Rock 'n' Roller Coaster Starring Aerosmith",
         "type": "Thrill Ride, Indoor",
-        "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1600/900/75/dam/wdpro-assets/gallery/attractions/hollywood-studios/rock-and-roller-coaster-starring-aerosmith/rock-and-roller-coaster-starring-aerosmith-gallery01.jpg?1551208906640",
+        "img": "assets/images/hs/rockAndRollerCoaster.webp",
         "video": "DcTikoA5jNE",
         "awt": ""
     },
@@ -51,7 +51,7 @@
         "id": 6,
         "name": "Slinky Dog Dash",
         "type": "Thrill Ride",
-        "img": "https://cdn1.parksmedia.wdprapps.disney.com/resize/mwImage/1/1920/1080/75/dam/disney-world/destinations/hollywood-studios/toy-story-land/toy-story-slinky-dog-ride-16x9.jpg?1573141195342",
+        "img": "assets/images/hs/slinkyDogDash.webp",
         "video": "vK3ZrMgyLVQ",
         "awt": ""
     },
@@ -59,7 +59,7 @@
         "id": 7,
         "name": "Star Tours - The Adventure Continues",
         "type": "Indoor",
-        "img": "https://dadsguidetowdw.com/wp-content/uploads/2019/09/disney-star-tours-walker-brett.jpg",
+        "img": "assets/images/hs/starTours.jpeg",
         "video": "Rkje4nxixrA",
         "awt": ""
     },
@@ -67,7 +67,7 @@
         "id": 8,
         "name": "Star Wars: Rise of the Resistance",
         "type": "Thrill Ride, Dark",
-        "img": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2019/08/slrghl6n8i9o9.jpg",
+        "img": "assets/images/hs/riseOfTheResistance.jpeg",
         "video": "KWbWghpV0Q8",
         "awt": ""
     },
@@ -75,7 +75,7 @@
         "id": 9,
         "name": "The Twilight Zone Tower of Terror",
         "type": "Thrill Ride, Dark, Indoor, Scary",
-        "img": "https://insidethemagic-119e2.kxcdn.com/wp-content/uploads/2021/03/tower-of-terror-getting-struck-by-lightning-800x400.png",
+        "img": "assets/images/hs/towerOfTerror.png",
         "video": "yBiNvXIChOA",
         "awt": ""
     },
@@ -83,7 +83,7 @@
         "id": 10,
         "name": "Toy Story Mania!",
         "type": "Spinning, Indoor, Interactive",
-        "img": "https://cache.undercovertourist.com/media_file/toy-story-mania-8368.jpg",
+        "img": "assets/images/hs/toyStoryMania.jpeg",
         "video": "pKQSnQZDHSU",
         "awt": ""
     }
