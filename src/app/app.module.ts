@@ -4,6 +4,8 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module'
 import { RouterModule } from '@angular/router';
+import { YouTubePlayerModule } from '@angular/youtube-player';
+
 
 //components
 import { AppComponent } from './app.component';
@@ -12,6 +14,7 @@ import { NavComponent } from './nav/nav.component';
 import { ResortsComponent } from './resorts/resorts.component';
 import { ParksComponent } from './parks/parks.component';
 import { RidesComponent } from './rides/rides.component';
+import { ScheduleComponent } from './schedule/schedule.component';
 import { NotfoundComponent } from './notfound/notfound.component';
 
 //service
@@ -28,15 +31,16 @@ import { AttractionComponent } from './attraction/attraction.component';
     ParksComponent,
     NotfoundComponent,
     RidesComponent,
-    AttractionComponent
-
+    AttractionComponent,
+    ScheduleComponent
   ],
   imports: [
     BrowserModule,
     HttpClientModule,
     AppRoutingModule,
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    YouTubePlayerModule
   ],
   providers: [
     ParkService,

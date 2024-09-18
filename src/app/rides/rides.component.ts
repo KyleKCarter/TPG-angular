@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
 import { RideResponse } from '../models/rides.model';
 import { ParkService } from '../service/park.service';
 
@@ -15,11 +16,16 @@ export class RidesComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private _parkService: ParkService
+    private _parkService: ParkService,
+    private _location: Location
   ) { }
 
   ngOnInit(): void {
     this.setPark();
+  }
+
+  backClick(): void {
+    this._location.back()
   }
 
   setPark(): void {

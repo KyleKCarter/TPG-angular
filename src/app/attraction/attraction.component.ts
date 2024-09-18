@@ -1,7 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { Location } from '@angular/common';
+
+//models
 import { ParksResponse } from '../models/parks.model';
 import { RideResponse } from '../models/rides.model';
+
+//service
 import { ParkService } from '../service/park.service';
 
 
@@ -20,7 +25,8 @@ export class AttractionComponent implements OnInit {
 
   constructor(
     private route: ActivatedRoute,
-    private _parkService: ParkService
+    private _parkService: ParkService,
+    private _location: Location
   ) { }
 
   ngOnInit(): void {
@@ -38,14 +44,18 @@ export class AttractionComponent implements OnInit {
     this._parkService.getRides(this.park).subscribe(response => {
       if (response) {
         this.rides = response
-      }
-      console.log(this.rides)
-      for (let i = 0; i <= this.rides.length; i++) {
-        if (this.rides[i].name === this.attraction) {
-          this.ride = this.rides[i]
+        for (let i = 0; i <= this.rides.length; i++) {
+          if (this.rides[i].name === this.attraction) {
+            this.ride = this.rides[i]
+          }
+          console.log(this.rides)
         }
       }
     })
+  }
+
+  backClick(): void {
+    this._location.back()
   }
 
 }

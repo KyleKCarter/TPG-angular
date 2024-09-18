@@ -1,4 +1,5 @@
 <div *ngIf='rides'>
+    <button (click)="backClick()">Back</button>
     <h2 class="park-title">{{park}}</h2>
     <div class="ride-page">
         <div *ngFor="let ride of rides">
