@@ -36,7 +36,8 @@ export class ParkService {
       return this.http.get<RideResponse>(this._akUrl);
     } else if ( park === "Universal Studios") {
       return this.http.get<RideResponse>(this._usUrl);
-    } else if (park === "Islands of Adventure") {
+    // } else if (park === "Islands of Adventure"){
+    } else {
       return this.http.get<RideResponse>(this._ioaUrl);
     }
   }

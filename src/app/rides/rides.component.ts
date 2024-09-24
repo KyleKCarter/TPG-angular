@@ -11,7 +11,7 @@ import { ParkService } from '../service/park.service';
   styleUrls: ['./rides.component.css']
 })
 export class RidesComponent implements OnInit {
-  park!: string;
+  park: string = '';
   rides!: RideResponse;
 
   constructor(
