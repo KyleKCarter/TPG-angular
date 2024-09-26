@@ -12,7 +12,7 @@ import { ParkService } from '../service/park.service';
 })
 export class RidesComponent implements OnInit {
   park: string = '';
-  rides!: RideResponse;
+  rides?: RideResponse;
 
   constructor(
     private route: ActivatedRoute,
