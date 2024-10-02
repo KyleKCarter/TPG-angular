@@ -20,7 +20,6 @@ export class AttractionComponent implements OnInit {
   attraction!: string;
   park!: string;
   rides?: RideResponse[];
-  // rides: any;
   ride: any;
 
   constructor(
@@ -48,7 +47,6 @@ export class AttractionComponent implements OnInit {
           if (this.rides[i].name === this.attraction) {
             this.ride = this.rides[i]
           }
-          // console.log(this.rides)
         }
       }
     })

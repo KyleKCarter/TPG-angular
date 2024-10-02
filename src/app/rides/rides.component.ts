@@ -13,7 +13,6 @@ import { RideResponse } from '../models/rides.model';
 })
 export class RidesComponent implements OnInit {
   park: string = '';
-  // rides: any;
   rides?: RideResponse[];
 
   constructor(
