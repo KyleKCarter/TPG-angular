@@ -1,6 +1,8 @@
 {
   "name": "theme-park-guide",
   "version": "1.0.0",
+  "main": "server/index.ts",
+  "proxy": "http://localhost:32819",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
@@ -20,6 +22,13 @@
     "@angular/platform-browser-dynamic": "^18.1.0",
     "@angular/router": "^18.1.0",
     "@ngrx/store": "^18.0.1",
+    "axios": "^1.7.7",
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "massive": "^6.11.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
