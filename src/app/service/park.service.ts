@@ -19,26 +19,26 @@ export class ParkService {
   private _akUrl: string = '/assets/data/ak.json';
   private _usUrl: string = '/assets/data/us.json';
   private _ioaUrl: string = '/assets/data/ioa.json';
-  attraction!: RideResponse;
-  rides!: RideResponse;
+  attraction?: RideResponse;
+  rides?: RideResponse;
 
   constructor(private http: HttpClient) { }
 
-  getRides(park: string): Observable<RideResponse> {
+  getRides(park: string): Observable<RideResponse[]> {
     // return this.http.get('/disney/magicKingdom');
     if (park === "Magic Kingdom") {
-      return this.http.get<RideResponse>(this._mkUrl);
+      return this.http.get<RideResponse[]>(this._mkUrl);
     } else if ( park === "Epcot") {
-      return this.http.get<RideResponse>(this._eUrl);
+      return this.http.get<RideResponse[]>(this._eUrl);
     } else if ( park === "Hollywood Studios") {
-      return this.http.get<RideResponse>(this._hsUrl);
+      return this.http.get<RideResponse[]>(this._hsUrl);
     } else if ( park === "Animal Kingdom") {
-      return this.http.get<RideResponse>(this._akUrl);
+      return this.http.get<RideResponse[]>(this._akUrl);
     } else if ( park === "Universal Studios") {
-      return this.http.get<RideResponse>(this._usUrl);
+      return this.http.get<RideResponse[]>(this._usUrl);
     // } else if (park === "Islands of Adventure"){
     } else {
-      return this.http.get<RideResponse>(this._ioaUrl);
+      return this.http.get<RideResponse[]>(this._ioaUrl);
     }
   }
 }

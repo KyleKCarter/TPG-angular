@@ -11,7 +11,7 @@
         {
             "id": 1,
             "name": "Big Thunder Mountain Railroad",
-            "type": "Small Drops, Thrill Rides",
+            "type": "Small Drops, Thrill Ride",
             "img": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2017/03/sdkjfn38103.png",
             "video": "",
             "awt": ""
@@ -115,7 +115,7 @@
         {
             "id": 14,
             "name": "Seven Dwarfs Mine Train",
-            "type": "Thrill Rides",
+            "type": "Thrill Ride",
             "img": "https://cdn1.parksmedia.wdprapps.disney.com/media/blog/wp-content/uploads/2020/07/hjt76uyrt7.jpg",
             "video": "",
             "awt": ""
@@ -123,7 +123,7 @@
         {
             "id": 15,
             "name": "Space Mountain",
-            "type": "Thrill Rides, Dark, Indoor",
+            "type": "Thrill Ride, Dark, Indoor",
             "img": "https://www.wdw-magazine.com/wp-content/uploads/2014/11/MOUNTAIN-3-WAYNE.jpg",
             "video": "",
             "awt": ""
@@ -178,6 +178,14 @@
         },
         {
             "id": 22,
+            "name": "TRON Lightcycle / Run",
+            "type": "Thrill Ride, Dark",
+            "img": "https://d23.com/app/uploads/2023/04/1180w-600h_040323_TRON_Lightcycle_Extras_00.jpg",
+            "video": "",
+            "awt": ""
+        },
+        {
+            "id": 23,
             "name": "Under the Sear ~ Journey of The Little Mermaid",
             "type": "Slow Ride, Indoor",
             "img": "https://i2.wp.com/orlandothemeparkzone.com/wp-content/uploads/2020/09/Fight-Reportedly-Broke-Out-in-Queue-for-Under-the-Sea-%E2%80%93-Journey-of-The-Little-Mermaid-at-Magic-Kingdom-Yesterday.jpg?fit=1644%2C918&ssl=1",
@@ -185,7 +193,7 @@
             "awt": ""
         },
         {
-            "id": 23,
+            "id": 24,
             "name": "Walt Disney's Carousel of Progress",
             "type": "Slow Ride, Indoor",
             "img": "https://i.insider.com/5a8c7d9f56019a2a008b463a?width=750&format=jpeg&auto=webp",
@@ -193,7 +201,7 @@
             "awt": ""
         },
         {
-            "id": 24,
+            "id": 25,
             "name": "Walt Disney's Enchanted Tiki Room",
             "type": "Indoor",
             "img": "https://www.wdw-magazine.com/wp-content/uploads/2020/08/enchanted-tiki-room-sign-cliff-wang-e1600190854592.jpg",

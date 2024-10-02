@@ -177,6 +177,14 @@
     },
     {
         "id": 22,
+        "name": "TRON Lightcycle | Run",
+        "type": "Thrill Ride, Dark",
+        "img": "assets/images/mk/tronLightCycle.jpg",
+        "video": "kcxdAZa__2A",
+        "awt": ""
+    },
+    {
+        "id": 23,
         "name": "Under the Sear ~ Journey of The Little Mermaid",
         "type": "Slow Ride, Indoor",
         "img": "assets/images/mk/littleMermaid.jpeg",
@@ -184,7 +192,7 @@
         "awt": ""
     },
     {
-        "id": 23,
+        "id": 24,
         "name": "Walt Disney's Carousel of Progress",
         "type": "Slow Ride, Indoor",
         "img": "assets/images/mk/carouselOfProgress.jpeg",
@@ -192,7 +200,7 @@
         "awt": ""
     },
     {
-        "id": 24,
+        "id": 25,
         "name": "Walt Disney's Enchanted Tiki Room",
         "type": "Indoor",
         "img": "assets/images/mk/tikiRoom.jpeg",

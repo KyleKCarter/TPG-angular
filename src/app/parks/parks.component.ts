@@ -19,10 +19,10 @@ export class ParksComponent implements OnInit {
   disneyWorld!: boolean;
   universalStudiosOrlando!: boolean;
   resort: any;
-  parks: any;
-  WDW!: ParksResponse[];
-  UO!: ParksResponse[];
-  rides!: RideResponse;
+  parks: any[] = [];
+  WDW?: ParksResponse[];
+  UO?: ParksResponse[];
+  rides?: RideResponse;
 
   constructor(
     private route: ActivatedRoute,
@@ -32,6 +32,7 @@ export class ParksComponent implements OnInit {
 
   ngOnInit(): void {
     this.setResort();
+    console.log("parks page hit")
   }
 
   backClick(): void {

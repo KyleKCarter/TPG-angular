@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { RideResponse } from '../models/rides.model';
 import { ParkService } from '../service/park.service';
 
+//Models
+import { RideResponse } from '../models/rides.model';
 
 @Component({
   selector: 'app-rides',
@@ -12,7 +13,7 @@ import { ParkService } from '../service/park.service';
 })
 export class RidesComponent implements OnInit {
   park: string = '';
-  rides!: RideResponse;
+  rides?: RideResponse[];
 
   constructor(
     private route: ActivatedRoute,
