@@ -1,8 +1,8 @@
 import { RequestHandler } from "express"
 
-export const getParks: RequestHandler = (req, res) => {
+const getParks: RequestHandler = (req, res) => {
     const db = req.app.get('database');
-    db.get_parks(req.params["park_name"]).then((parks: any) => {
+    db.get_parks(req.params["resort"]).then((parks: any) => {
         res.status(200).json(parks)
     }).catch((error: any) => {
         console.log(error)
@@ -10,9 +10,12 @@ export const getParks: RequestHandler = (req, res) => {
     })
 }
 
-export const getParkRides: RequestHandler = (req, res) => {
+const getParkRides: RequestHandler = (req, res) => {
     const db = req.app.get('database');
+    console.log('hit');
+    console.log("req: ", req.params)
     db.get_park_rides(req.params["park_name"]).then((rides: any) => {
+        console.log("rides: ", rides)
         res.status(200).json(rides);
     }).catch((error: any) => {
         console.log(error)
@@ -20,7 +23,7 @@ export const getParkRides: RequestHandler = (req, res) => {
     })
 }
 
-export const getRide: RequestHandler = (req, res) => {
+const getRide: RequestHandler = (req, res) => {
     const db = req.app.get('database');
     db.get_ride(req.params["ride_name"]).then((ride: any) => {
         res.status(200).json(ride);
@@ -32,8 +35,8 @@ export const getRide: RequestHandler = (req, res) => {
 }
 
 
-// module.exports = {
-//     getParks,
-//     getParkRides,
-//     getRide
-// }
+module.exports = {
+    getParks,
+    getParkRides,
+    getRide
+}

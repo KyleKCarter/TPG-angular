@@ -1,2 +1,2 @@
 SELECT * FROM parks
-WHERE park_name = $1;
+WHERE resort = $1;
