@@ -26,4 +26,13 @@ massive(CONNECTION_STRING)
 //Session
 
 
+//Controllers
+const resort = require('./controllers/resortController');
+
+//ENDPOINTS
+app.get('/:parks', resort.getParks);
+app.get('/:parks/park_rides', resort.getParkRides);
+app.get('/park_rides/:ride', resort.getRide);
+
+
 app.listen(SERVER_PORT, () => console.log(`Running on ${SERVER_PORT}`))
