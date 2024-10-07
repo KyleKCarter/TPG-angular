@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 //models
-import { ParksResponse } from '../models/parks.model';
-import { RideResponse } from '../models/rides.model';
+import { ParksResponse } from '../models/parks.model.js';
+import { RideResponse } from '../models/rides.model.js';
 
 //service
-import { ParkService } from '../service/park.service';
+import { ParkService } from '../service/park.service.js';
 
 
 @Component({
@@ -19,7 +19,7 @@ export class AttractionComponent implements OnInit {
 
   attraction!: string;
   park!: string;
-  rides?: RideResponse[];
+  rides?: any;
   ride: any;
 
   constructor(
