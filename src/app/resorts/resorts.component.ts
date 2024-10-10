@@ -10,7 +10,7 @@ export class ResortsComponent implements OnInit {
   resorts: any = [
     {
       id: 1,
-      name: 'Disney World',
+      name: 'Walt Disney World',
       img: 'assets/images/parks/wdw.jpeg'
     },
     {

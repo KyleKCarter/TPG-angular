@@ -5,7 +5,6 @@ import { map } from 'rxjs/operators';
 import { HttpClient } from '@angular/common/http';
 
 import { RideResponse } from '../models/rides.model.js';
-import { error } from 'console';
 
 @Injectable({
   providedIn: 'root'

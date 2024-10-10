@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
-import { ParkService } from '../service/park.service.js';
+import { ParkService } from '../service/park.service';
 
 //Models
-import { RideResponse } from '../models/rides.model.js';
+import { RideResponse } from '../models/rides.model';
 
 @Component({
   selector: 'app-rides',

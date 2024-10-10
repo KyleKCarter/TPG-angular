@@ -3,21 +3,21 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 //Services
-import { ParkService } from '../service/park.service.js';
-import { ResortService } from '../service/resort.service.js';
+import { ParkService } from '../service/park.service';
+import { ResortService } from '../service/resort.service';
 
 //Models
-import { RideResponse } from '../models/rides.model.js';
-import { ParksResponse } from '../models/parks.model.js';
+import { RideResponse } from '../models/rides.model';
+import { ParksResponse } from '../models/parks.model';
 
 @Component({
   selector: 'app-parks',
   templateUrl: './parks.component.html',
-  styleUrls: ['./parks.component.css']
+  styleUrls: ['./parks.component.css'],
 })
 export class ParksComponent implements OnInit {
-  disneyWorld!: boolean;
-  universalStudiosOrlando!: boolean;
+  disneyWorld?: boolean;
+  universalStudiosOrlando?: boolean;
   resort: any;
   parks: any[] = [];
   WDW?: ParksResponse[];
@@ -28,25 +28,25 @@ export class ParksComponent implements OnInit {
     private route: ActivatedRoute,
     private _resortService: ResortService,
     private _location: Location
-  ) { }
+  ) {}
 
   ngOnInit(): void {
     this.setResort();
-    console.log("parks page hit")
+    console.log('parks page hit');
   }
 
   backClick(): void {
-    this._location.back()
+    this._location.back();
   }
 
   setResort(): void {
     // Function will set what display is shown
-    this.route.paramMap
-      .subscribe(params => {
-        this.resort = params.get('resort')
-        console.log(this.resort)
-      });
-    if (this.resort == 'Disney World') {
+    console.log('parks component page');
+    this.route.paramMap.subscribe((params) => {
+      this.resort = params.get('resort');
+      console.log(this.resort);
+    });
+    if (this.resort == 'Walt Disney World') {
       this.disneyWorld = true;
       this.universalStudiosOrlando = false;
     } else if (this.resort == 'Universal Studios Orlando') {
@@ -59,19 +59,20 @@ export class ParksComponent implements OnInit {
   getResort(): void {
     //service call to get resort from server
     //for now will use hardcoded data
-    this._resortService.getResortParks().subscribe(resorts => {
+    this._resortService.getResortParks(this.resort).subscribe((resorts: any) => {
       this.WDW = [];
       this.UO = [];
       if (resorts) {
-        this.parks.push(resorts)
+        this.parks.push(resorts);
+        console.log(resorts)
         for (const resort of resorts) {
           if (resort.resort === 'Walt Disney World') {
-            this.WDW.push(resort)
+            this.WDW.push(resort);
           } else if (resort.resort === 'Universal Studios Orlando') {
-            this.UO.push(resort)
+            this.UO.push(resort);
           }
         }
       }
     });
-  };
+  }
 }

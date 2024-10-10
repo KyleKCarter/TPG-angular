@@ -1,5 +1,6 @@
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { map } from 'rxjs/operators';
 
 import { HttpClient } from '@angular/common/http';
 import { ParksResponse } from '../models/parks.model';
@@ -12,11 +13,16 @@ export class ResortService {
 
   //hard coded url until I can figure out config.json
   private _resortUrl: string = '/assets/data/parks.json';
+  // parks?: ParksResponse[]
 
   constructor(private http: HttpClient) { }
 
-  getResortParks(): Observable<ParksResponse[]> {
-    return this.http.get<ParksResponse[]>(this._resortUrl);
+  getResortParks(resort: any): Observable<any> {
+    // return this.http.get<ParksResponse[]>(this._resortUrl);
+   return this.http.get<ParksResponse[]>(`http://localhost:32819/${resort}`)
+    .pipe(map((data) => {
+        return data
+    }))
   }
 
 }

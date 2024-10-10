@@ -4,17 +4,17 @@
 <div *ngIf='parks'>
     <div class="park-page" *ngIf='disneyWorld'>
         <div *ngFor='let park of WDW'>
-            <div class="park-tile" routerLink="{{park.park}}">
+            <div class="park-tile" routerLink="{{park.park_name}}">
                 <img class="park-img" src="{{park.img}}" alt="">
-                <p>{{ park.park}}</p>
+                <p>{{ park.park_name }}</p>
             </div>
         </div>
     </div>
     <div class="park-page" *ngIf='universalStudiosOrlando'>
         <div *ngFor='let park of UO'>
-            <div class="park-tile" routerLink="{{park.park}}">
+            <div class="park-tile" routerLink="{{park.park_name}}">
                 <img class="park-img" src="{{park.img}}" alt="">
-                <p>{{ park.park}}</p>
+                <p>{{ park.park_name }}</p>
             </div>
         </div>
     </div>

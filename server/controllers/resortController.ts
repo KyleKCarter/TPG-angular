@@ -2,7 +2,9 @@ import { RequestHandler } from "express"
 
 const getParks: RequestHandler = (req, res) => {
     const db = req.app.get('database');
+    console.log("hit 1")
     db.get_parks(req.params["resort"]).then((parks: any) => {
+        console.log("hit 2")
         res.status(200).json(parks)
     }).catch((error: any) => {
         console.log(error)

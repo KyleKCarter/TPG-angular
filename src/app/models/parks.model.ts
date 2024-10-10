@@ -1,6 +1,6 @@
 export interface ParksResponse {
     id: number,
     resort: string,
-    park: string,
+    park_name: string,
     img: any
 }
