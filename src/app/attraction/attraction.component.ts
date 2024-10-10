@@ -3,11 +3,11 @@ import { ActivatedRoute } from '@angular/router';
 import { Location } from '@angular/common';
 
 //models
-import { ParksResponse } from '../models/parks.model.js';
-import { RideResponse } from '../models/rides.model.js';
+import { ParksResponse } from '../models/parks.model';
+import { RideResponse } from '../models/rides.model';
 
 //service
-import { ParkService } from '../service/park.service.js';
+import { ParkService } from '../service/park.service';
 
 
 @Component({

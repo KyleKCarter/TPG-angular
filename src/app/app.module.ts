@@ -2,25 +2,25 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { HttpClientModule } from '@angular/common/http';
 import { CommonModule } from '@angular/common';
-import { AppRoutingModule } from './app-routing.module.js'
+import { AppRoutingModule } from './app-routing.module'
 import { RouterModule } from '@angular/router';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 
 
 //components
-import { AppComponent } from './app.component.js';
-import { HomeComponent } from './home/home.component.js';
-import { NavComponent } from './nav/nav.component.js';
-import { ResortsComponent } from './resorts/resorts.component.js';
-import { ParksComponent } from './parks/parks.component.js';
-import { RidesComponent } from './rides/rides.component.js';
-import { ScheduleComponent } from './schedule/schedule.component.js';
-import { NotfoundComponent } from './notfound/notfound.component.js';
+import { AppComponent } from './app.component';
+import { HomeComponent } from './home/home.component';
+import { NavComponent } from './nav/nav.component';
+import { ResortsComponent } from './resorts/resorts.component';
+import { ParksComponent } from './parks/parks.component';
+import { RidesComponent } from './rides/rides.component';
+import { ScheduleComponent } from './schedule/schedule.component';
+import { NotfoundComponent } from './notfound/notfound.component';
 
 //service
-import { ResortService } from './service/resort.service.js';
-import { ParkService } from './service/park.service.js';
-import { AttractionComponent } from './attraction/attraction.component.js';
+import { ResortService } from './service/resort.service';
+import { ParkService } from './service/park.service';
+import { AttractionComponent } from './attraction/attraction.component';
 
 @NgModule({
   declarations: [
