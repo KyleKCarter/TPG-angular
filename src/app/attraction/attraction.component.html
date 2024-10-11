@@ -1,9 +1,9 @@
 <div class="attraction-page">
     <button (click)="backClick()">Back</button>
     <div class="attraction-content">
-        <img class="attraction-image" src="{{ride.img}}" alt="">
+        <img class="attraction-image" src="{{ride.ride_img}}" alt="">
         <youtube-player 
-            videoId="{{ride.video}}" 
+            videoId="{{ride.ride_video}}" 
             suggestedQuality="highres" 
             [height]="400" 
             [width]="600"
@@ -11,8 +11,8 @@
             [endSeconds]="60">
         </youtube-player>
         <div class="attraction-data">
-            <h3>{{ride.name}}</h3>
-            <p>{{ride.type}}</p>
+            <h3>{{ride.ride_name}}</h3>
+            <p>{{ride.ride_type}}</p>
             <p>Average wait time: {{ride.awt}}</p>
         </div>
     </div>

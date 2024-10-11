@@ -20,12 +20,20 @@ export class ParkService {
 
   constructor(private http: HttpClient) { }
 
-  getRides(park: string): Observable<any> {
-    return this.http.get<RideResponse[]>(`/${park}/park_rides`)
+  getParkRides(park: string): Observable<any> {
+    return this.http.get<RideResponse[]>(`http://localhost:32819/${park}/park_rides`)
       .pipe(map((data: any) => {
-        console.log("park rides data: ", data)
         if (data) {
-          this.rides?.push(data)
+          return data
+        }
+      }))
+  }
+
+  getAttraction(park_name: string, ride_name: string): Observable<any> {
+    return this.http.get<RideResponse[]>(`http://localhost:32819/${park_name}/park_rides/${ride_name}`)
+      .pipe(map((data: any) => {
+        if(data) {
+          return data
         }
       }))
   }

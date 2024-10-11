@@ -49,7 +49,7 @@ export class ParksComponent implements OnInit {
     if (this.resort == 'Walt Disney World') {
       this.disneyWorld = true;
       this.universalStudiosOrlando = false;
-    } else if (this.resort == 'Universal Studios Orlando') {
+    } else if (this.resort == 'Universal Orlando Resort') {
       this.disneyWorld = false;
       this.universalStudiosOrlando = true;
     }
@@ -57,18 +57,15 @@ export class ParksComponent implements OnInit {
   }
 
   getResort(): void {
-    //service call to get resort from server
-    //for now will use hardcoded data
     this._resortService.getResortParks(this.resort).subscribe((resorts: any) => {
       this.WDW = [];
       this.UO = [];
       if (resorts) {
         this.parks.push(resorts);
-        console.log(resorts)
         for (const resort of resorts) {
           if (resort.resort === 'Walt Disney World') {
             this.WDW.push(resort);
-          } else if (resort.resort === 'Universal Studios Orlando') {
+          } else if (resort.resort === 'Universal Orlando Resort') {
             this.UO.push(resort);
           }
         }

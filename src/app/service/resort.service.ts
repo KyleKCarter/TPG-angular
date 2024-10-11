@@ -18,7 +18,7 @@ export class ResortService {
   constructor(private http: HttpClient) { }
 
   getResortParks(resort: any): Observable<any> {
-    // return this.http.get<ParksResponse[]>(this._resortUrl);
+    console.log("resort in resort service: ", resort)
    return this.http.get<ParksResponse[]>(`http://localhost:32819/${resort}`)
     .pipe(map((data) => {
         return data

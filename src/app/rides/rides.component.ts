@@ -42,14 +42,9 @@ export class RidesComponent implements OnInit {
   }
 
   getRides(): void {
-    // function get's and set's the ride based off of the park
-    // this._parkService.getRides(this.park).subscribe((response: any) => {
-    //   if (response) {
-    //     this.rides = response
-    //   }
-    // })
     this.isFetching = true;
-    this._parkService.getRides(this.park).subscribe((response: any) => {
+    console.log(this.park)
+    this._parkService.getParkRides(this.park).subscribe((response: any) => {
       if (response) {
         this.rides = response;
         this.isFetching = false;

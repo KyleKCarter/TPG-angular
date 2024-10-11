@@ -2,9 +2,8 @@ import { RequestHandler } from "express"
 
 const getParks: RequestHandler = (req, res) => {
     const db = req.app.get('database');
-    console.log("hit 1")
+    console.log('hit get parks');
     db.get_parks(req.params["resort"]).then((parks: any) => {
-        console.log("hit 2")
         res.status(200).json(parks)
     }).catch((error: any) => {
         console.log(error)
@@ -14,10 +13,8 @@ const getParks: RequestHandler = (req, res) => {
 
 const getParkRides: RequestHandler = (req, res) => {
     const db = req.app.get('database');
-    console.log('hit');
-    console.log("req: ", req.params)
+    console.log('hit get park rides');
     db.get_park_rides(req.params["park_name"]).then((rides: any) => {
-        console.log("rides: ", rides)
         res.status(200).json(rides);
     }).catch((error: any) => {
         console.log(error)
@@ -27,7 +24,9 @@ const getParkRides: RequestHandler = (req, res) => {
 
 const getRide: RequestHandler = (req, res) => {
     const db = req.app.get('database');
-    db.get_ride(req.params["ride_name"]).then((ride: any) => {
+    console.log('hit get ride');
+    const {park_name, ride_name} = req.params;
+    db.get_ride(park_name, ride_name).then((ride: any) => {
         res.status(200).json(ride);
     }).catch((error: any) => {
         console.log(error)
