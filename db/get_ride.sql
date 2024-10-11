@@ -1,2 +1,2 @@
 SELECT * FROM rides
-WHERE ride_name = $1;
+WHERE park_name = $1 AND ride_name = $2;

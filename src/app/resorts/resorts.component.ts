@@ -15,7 +15,7 @@ export class ResortsComponent implements OnInit {
     },
     {
       id: 2,
-      name: 'Universal Studios Orlando',
+      name: 'Universal Orlando Resort',
       img: 'assets/images/parks/universalStudiosResort.png'
     }
   ]

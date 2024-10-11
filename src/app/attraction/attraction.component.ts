@@ -40,11 +40,11 @@ export class AttractionComponent implements OnInit {
 
   getAttraction(): void {
     // function get's the ride based off attraction selected
-    this._parkService.getRides(this.park).subscribe(response => {
+    this._parkService.getAttraction(this.park, this.attraction).subscribe(response => {
       if (response) {
         this.rides = response
         for (let i = 0; i <= this.rides.length; i++) {
-          if (this.rides[i].name === this.attraction) {
+          if (this.rides[i].ride_name === this.attraction) {
             this.ride = this.rides[i]
           }
         }
