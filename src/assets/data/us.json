@@ -5,7 +5,7 @@
         "type": "Indoor, Slow Ride",
         "img": "assets/images/us/despicableMe.webp",
         "video": "CL93026E3OI",
-        "awt": ""
+        "awt": 45
     },
     {
         "id": 1,
@@ -13,15 +13,15 @@
         "type": "Slow Ride, Dark, Indoor",
         "img": "assets/images/us/et.jpg",
         "video": "rFpMHO0cnHw",
-        "awt": ""
+        "awt": 20
     },
     {
         "id": 2,
-        "name": "Fast And Furious - Supercharged",
+        "name": "Fast & Furious - Supercharged",
         "type": "Thrill Ride, Indoor",
         "img": "assets/images/us/fastAndFurious.jpeg",
         "video": "kavsxBGuBP8",
-        "awt": ""
+        "awt": 25
     },
     {
         "id": 3,
@@ -29,15 +29,15 @@
         "type": "Thrill Ride, Indoor, Dark",
         "img": "assets/images/us/escapeFromGringotts.jpeg",
         "video": "N8FSuOjoy8w",
-        "awt": ""
+        "awt": 45
     },
     {
         "id": 4,
-        "name": "Hogwarts Express",
+        "name": "Hogwarts Express - King's Cross Station",
         "type": "Slow Ride",
         "img": "assets/images/us/hogwartsExpress.png",
-        "video": "",
-        "awt": ""
+        "video": "oYZYNyz8RGI",
+        "awt": 20
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "type": "Thrill Ride",
         "img": "assets/images/us/ripRideRockit.jpeg",
         "video": "TklUNH2tOWs",
-        "awt": ""
+        "awt": 40
     },
     {
         "id": 6,
@@ -53,15 +53,15 @@
         "type": "Spinning",
         "img": "assets/images/us/kangAndKodos.jpeg",
         "video": "FZ0Cx4eCUic",
-        "awt": ""
+        "awt": 20
     },
     {
         "id": 7,
-        "name": "MEN IN BLACK Alien Attack",
+        "name": "MEN IN BLACK Alien Attack!",
         "type": "Spinning, Thrill Ride, Interactive, Dark, Indoor",
         "img": "assets/images/us/menInBlack.jpeg",
         "video": "5vh9TZEyc0U",
-        "awt": ""
+        "awt": 25
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "type": "Slow Ride, Indoor",
         "img": "assets/images/us/jimmyFallon.jpeg",
         "video": "Z1wtk4HHeu0",
-        "awt": ""
+        "awt": 30
     },
     {
         "id": 9,
@@ -77,15 +77,15 @@
         "type": "Indoor, Thrill Ride, Dark",
         "img": "assets/images/us/theMummy.webp",
         "video": "Abu0j4d1TNw",
-        "awt": ""
+        "awt": 45
     },
     {
         "id": 10,
-        "name": "Shrek 4-D",
-        "type": "Indoor, Stage Show",
-        "img": "assets/images/us/shrek.jpeg",
-        "video": "",
-        "awt": ""
+        "name": "Trolls Trollercoaster",
+        "type": "Kid Friendly",
+        "img": "assets/images/us/trollsTrollercoaster.jpg",
+        "video": "I6UJMIVDC9k",
+        "awt": 25
     },
     {
         "id": 11,
@@ -93,7 +93,7 @@
         "type": "Indoor, Thrill Ride",
         "img": "assets/images/us/simpsonsRide.webp",
         "video": "WdwbGuEW_8U",
-        "awt": ""
+        "awt": 30
     },
     {
         "id": 12,
@@ -101,14 +101,14 @@
         "type": "Indoor, Thrill Ride, Dark",
         "img": "assets/images/us/transformers.jpeg",
         "video": "jeOfBbh3qAA",
-        "awt": ""
+        "awt": 40
     },
     {
         "id": 13,
-        "name": "Woody Woodpecker's Nuthouse Coaster",
-        "type": "Kids, Slow Ride",
-        "img": "assets/images/us/woodyWoodpeckersNuthouseCoaster.jpeg",
-        "video": "rEys72mi1SA",
-        "awt": ""
+        "name": "Illumination's Villain-Con Minion Blast",
+        "type": "Kids, Indoor",
+        "img": "assets/images/us/villainConMinionBlast.jpg",
+        "video": "Blnu761johU",
+        "awt": 30
     }
 ]
