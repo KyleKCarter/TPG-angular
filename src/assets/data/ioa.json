@@ -5,7 +5,7 @@
         "type": "Slow Ride",
         "img": "assets/images/ioa/caroSeussEl.jpeg",
         "video": "j_E3rmgE2Uc",
-        "awt": ""
+        "awt": 5
     },
     {
         "id": 1,
@@ -13,7 +13,7 @@
         "type": "Thrill Ride",
         "img": "assets/images/ioa/doctorDoom.jpeg",
         "video": "ur-iEPGoP0c",
-        "awt": ""
+        "awt": 15
     },
     {
         "id": 2,
@@ -21,15 +21,15 @@
         "type": "Water Ride, Thrill Ride",
         "img": "assets/images/ioa/dudleyDoRightsRipsawFalls.jpeg",
         "video": "eFZ9f9GMr1A",
-        "awt": ""
+        "awt": 60
     },
     {
         "id": 3,
         "name": "Flight of the Hippogriff",
         "type": "Thrill Ride",
-        "img": "https://www.universalorlando.com/webdata/k2/en/us/files/Images/gds/ioa-flight-of-the-hippogriff-coaster-c.jpg?imwidth=361",
-        "video": "",
-        "awt": ""
+        "img": "assets/images/ioa/hippogriff.jpeg",
+        "video": "RpOgtInDGFc",
+        "awt": 35
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "type": "Thrill Ride",
         "img": "assets/images/ioa/hagridsMagicalCreaturesMotorbikeAdventure.jpeg",
         "video": "cMtR5_TinqE",
-        "awt": ""
+        "awt": 80
     },
     {
         "id": 5,
@@ -45,15 +45,15 @@
         "type": "Thrill Ride, Dark, Indoor",
         "img": "assets/images/ioa/forbiddenJourney.jpeg",
         "video": "NT6Xj5x_51I",
-        "awt": ""
+        "awt": 30
     },
     {
         "id": 6,
-        "name": "Hogwarts Express",
+        "name": "Hogwarts Express - Hogsmeade Station",
         "type": "Slow Ride",
         "img": "assets/images/ioa/hogwartsExpress.jpeg",
-        "video": "",
-        "awt": ""
+        "video": "DXgFfZmbBpA",
+        "awt": 25
     },
     {
         "id": 7,
@@ -61,7 +61,7 @@
         "type": "Thrill Ride, Water Ride",
         "img": "assets/images/ioa/jurassicParkRiverAdventure.jpeg",
         "video": "r22IQhrDd3c",
-        "awt": ""
+        "awt": 35
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "type": "Thrill Ride",
         "img": "assets/images/ioa/velociCoaster.jpeg",
         "video": "FJe42WzToFE",
-        "awt": ""
+        "awt": 60
     },
     {
         "id": 9,
@@ -77,7 +77,7 @@
         "type": "Slow Ride, Spinning",
         "img": "assets/images/ioa/oneFish.jpeg",
         "video": "FVT7FJtBotM",
-        "awt": ""
+        "awt": 15
     },
     {
         "id": 10,
@@ -85,7 +85,7 @@
         "type": "Thrill Ride, Water Ride",
         "img": "assets/images/ioa/barges.jpeg",
         "video": "9R7Pkqzbyi4",
-        "awt": ""
+        "awt": 25
     },
     {
         "id": 11,
@@ -93,7 +93,7 @@
         "type": "Slow Ride, Kids",
         "img": "assets/images/ioa/pteranodonFlyers.jpeg",
         "video": "L2_9PznQldI",
-        "awt": ""
+        "awt": 40
     },
     {
         "id": 12,
@@ -101,7 +101,7 @@
         "type": "Thrill Ride, Indoor, Dark",
         "img": "assets/images/ioa/kong.jpg",
         "video": "n_GZCxD1Jvw",
-        "awt": ""
+        "awt": 35
     },
     {
         "id": 13,
@@ -109,31 +109,31 @@
         "type": "Spinning",
         "img": "assets/images/ioa/stormForceAccelatron.jpeg",
         "video": "Fhpne8o2gwQ",
-        "awt": ""
+        "awt": 5
     },
     {
         "id": 14,
         "name": "The Amazing Adventures of Spider-Man",
         "type": "Thrill Ride, Indoor, Dark",
-        "img": "https://www.universalorlando.com/webdata/k2/en/us/files/Images/gds/ioa-amazing-adventures-of-spiderman-ride-screen-c.jpg?imwidth=361",
-        "video": "",
-        "awt": ""
+        "img": "assets/images/ioa/spiderMan.jpg",
+        "video": "d1nI7-U9x3s",
+        "awt": 40
     },
     {
         "id": 15,
-        "name": "The Cat in the Hat",
+        "name": "The Cat in The Hat",
         "type": "Slow Ride, Indoor",
         "img": "assets/images/ioa/catInTheHat.jpeg",
         "video": "Ru1Q_nKBITg",
-        "awt": ""
+        "awt": 10
     },
     {
         "id": 16,
         "name": "The High in the Sky Seuss Trolley Train Ride!",
         "type": "Slow Ride",
-        "img": "https://www.universalorlando.com/webdata/k2/en/us/files/Images/gds/ioa-high-in-the-sky-seuss-trolly-train-ride-people-a.jpg",
-        "video": "",
-        "awt": ""
+        "img": "assets/images/ioa/highInTheSky.jpeg",
+        "video": "3DO0XBKDnSs",
+        "awt": 15
     },
     {
         "id": 17,
@@ -141,6 +141,6 @@
         "type": "Thrill Ride",
         "img": "assets/images/ioa/hulk.jpeg",
         "video": "e-QwtvmEM1k",
-        "awt": ""
+        "awt": 35
     }
 ]
