@@ -5,7 +5,7 @@
         "type": "Slow Rides, Spinning",
         "img": "assets/images/mk/astroOrbiter.jpeg",
         "video": "ceLFGnNv1rM",
-        "awt": ""
+        "awt": 30
     },
     {
         "id": 1,
@@ -13,7 +13,7 @@
         "type": "Small Drops, Thrill Rides",
         "img": "assets/images/mk/bigThunderMountain.png",
         "video": "_UbdTL5PiA0",
-        "awt": ""
+        "awt": 35
     },
     {
         "id": 2,
@@ -21,15 +21,15 @@
         "type": "Slow Ride, Spinning, Interactive, Indoor",
         "img": "assets/images/mk/buzzLightyear.jpeg",
         "video": "jWiXGxDmXJU",
-        "awt": ""
+        "awt": 30
     },
     {
         "id": 3,
-        "name": "Country Bear Jamboree",
+        "name": "Country Bear Musical Jamboree",
         "type": "Stage Shows",
         "img": "assets/images/mk/countryBearJamboree.jpeg",
-        "video": "",
-        "awt": ""
+        "video": "1-mD0FAkytk",
+        "awt": 15
     },
     {
         "id": 4,
@@ -37,7 +37,7 @@
         "type": "Spinning, Slow Rides",
         "img": "assets/images/mk/Dumbo.jpeg",
         "video": "SAYYHv52BxY",
-        "awt": ""
+        "awt": 15
     },
     {
         "id": 5,
@@ -45,7 +45,7 @@
         "type": "Slow Ride, Dark, Interactive",
         "img": "assets/images/mk/hauntedMansion.jpeg",
         "video": "WuYp0-m9pOs",
-        "awt": ""
+        "awt": 35
     },
     {
         "id": 6,
@@ -53,7 +53,7 @@
         "type": "Slow Rides",
         "img": "assets/images/mk/smallWorld.jpeg",
         "video": "7tbm4Au3dZ0",
-        "awt": ""
+        "awt": 20
     },
     {
         "id": 7,
@@ -61,7 +61,7 @@
         "type": "Slow Rides",
         "img": "assets/images/mk/jungleCruise.jpeg",
         "video": "1ybSVe8HVFg",
-        "awt": ""
+        "awt": 40
     },
     {
         "id": 8,
@@ -69,7 +69,7 @@
         "type": "Slow Rides",
         "img": "assets/images/mk/riverboat.jpeg",
         "video": "9ORZhlHPp8w",
-        "awt": ""
+        "awt": 15
     },
     {
         "id": 9,
@@ -77,15 +77,15 @@
         "type": "Spinning",
         "img": "assets/images/mk/teaCups.jpeg",
         "video": "RsHRFgc-4xw",
-        "awt": ""
+        "awt": 10
     },
     {
         "id": 10,
         "name": "Mickey's PhilharMagic",
         "type": "Indoor, Stage Shows",
         "img": "assets/images/mk/philharmagic.jpeg",
-        "video": "",
-        "awt": ""
+        "video": "5ZU-08QGp98",
+        "awt": 15
     },
     {
         "id": 11,
@@ -93,7 +93,7 @@
         "type": "Slow Rides",
         "img": "assets/images/mk/peterPan.jpeg",
         "video": "ZLBPvABpQXQ",
-        "awt": ""
+        "awt": 45
     },
     {
         "id": 12,
@@ -101,7 +101,7 @@
         "type": "Small Drops, Slow Rides, Indoor",
         "img": "assets/images/mk/pirates.jpeg",
         "video": "xTjauPSqbgM",
-        "awt": ""
+        "awt": 20
     },
     {
         "id": 13,
@@ -109,7 +109,7 @@
         "type": "Slow Rides, Spinning",
         "img": "assets/images/mk/princeCharmingRegalCarrousel.jpeg",
         "video": "KTtXEUF-f3I",
-        "awt": ""
+        "awt": 7
     },
     {
         "id": 14,
@@ -117,7 +117,7 @@
         "type": "Thrill Rides",
         "img": "assets/images/mk/sevenDwarfsMineTrain.jpeg",
         "video": "sf8NARziZZM",
-        "awt": ""
+        "awt": 60
     },
     {
         "id": 15,
@@ -125,7 +125,7 @@
         "type": "Thrill Rides, Dark, Indoor",
         "img": "assets/images/mk/spaceMountain.jpeg",
         "video": "WMMiZFPYg6M",
-        "awt": ""
+        "awt": 45
     },
     {
         "id": 16,
@@ -133,7 +133,7 @@
         "type": "Thrill Ride, Water Ride",
         "img": "assets/images/mk/splashMountain.jpeg",
         "video": "pBBatgCUDVI",
-        "awt": ""
+        "awt": "tbd"
     },
     {
         "id": 17,
@@ -141,7 +141,7 @@
         "type": "Small Drops",
         "img": "assets/images/mk/barnstormer.jpeg",
         "video": "LyRjKRMjZjg",
-        "awt": ""
+        "awt": 15
     },
     {
         "id": 18,
@@ -149,7 +149,7 @@
         "type": "Indoor",
         "img": "assets/images/mk/hallOfPresidents.jpeg",
         "video": "",
-        "awt": ""
+        "awt": 5
     },
     {
         "id": 19,
@@ -157,7 +157,7 @@
         "type": "Spinning",
         "img": "assets/images/mk/magicCarpets.png",
         "video": "fcbWb1FkSC0",
-        "awt": ""
+        "awt": 10
     },
     {
         "id": 20,
@@ -165,7 +165,7 @@
         "type": "Slow Ride, Indoor",
         "img": "assets/images/mk/winnieThePooh.jpeg",
         "video": "o-UW4yncrYc",
-        "awt": ""
+        "awt": 30
     },
     {
         "id": 21,
@@ -173,7 +173,7 @@
         "type": "Slow Ride",
         "img": "assets/images/mk/peoplemover.jpeg",
         "video": "-wtrwSTlISs",
-        "awt": ""
+        "awt": 10
     },
     {
         "id": 22,
@@ -181,7 +181,7 @@
         "type": "Thrill Ride, Dark",
         "img": "assets/images/mk/tronLightCycle.jpg",
         "video": "kcxdAZa__2A",
-        "awt": ""
+        "awt": 115
     },
     {
         "id": 23,
@@ -189,7 +189,7 @@
         "type": "Slow Ride, Indoor",
         "img": "assets/images/mk/littleMermaid.jpeg",
         "video": "qnPz0mq2Fw8",
-        "awt": ""
+        "awt": 20
     },
     {
         "id": 24,
@@ -197,7 +197,7 @@
         "type": "Slow Ride, Indoor",
         "img": "assets/images/mk/carouselOfProgress.jpeg",
         "video": "CmrSiJTMf7s",
-        "awt": ""
+        "awt": 5
     },
     {
         "id": 25,
@@ -205,6 +205,38 @@
         "type": "Indoor",
         "img": "assets/images/mk/tikiRoom.jpeg",
         "video": "",
-        "awt": ""
+        "awt": 10
+    },
+    {
+        "id": 26,
+        "name": "Tomorrowland Speedway",
+        "type": "Slow Ride",
+        "img": "assets/images/mk/speedway.jpg",
+        "video": "ip5xC9xTSIc",
+        "awt": 20
+    },
+    {
+        "id": 27,
+        "name": "Walt Disney World Railroad - Fantasyland",
+        "type": "Kid Friendly",
+        "img": "assets/images/mk/railroad.jpg",
+        "video": "",
+        "awt": 12
+    },
+    {
+        "id": 28,
+        "name": "Walt Disney World Railroad - Frontierland",
+        "type": "Kid Friendly",
+        "img": "assets/images/mk/railroad.jpg",
+        "video": "",
+        "awt": 12
+    },
+    {
+        "id": 28,
+        "name": "Walt Disney World Railroad - Main Stret, U.S.A.",
+        "type": "Kid Friendly",
+        "img": "assets/images/mk/railroad.jpg",
+        "video": "",
+        "awt": 12
     }
 ]
