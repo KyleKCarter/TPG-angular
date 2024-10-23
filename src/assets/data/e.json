@@ -116,7 +116,7 @@
         "name": "Turtle Talk With Crush",
         "type": "Indoor, Show",
         "img": "assets/images/e/tutleTalk.jpg",
-        "video": "",
+        "video": "", 
         "awt": 15
     }
 ]
