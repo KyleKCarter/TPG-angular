@@ -129,10 +129,10 @@
     },
     {
         "id": 16,
-        "name": "Splash Mountain",
+        "name": "Tiana's Bayou Adventure",
         "type": "Thrill Ride, Water Ride",
-        "img": "assets/images/mk/splashMountain.jpeg",
-        "video": "pBBatgCUDVI",
+        "img": "assets/images/mk/tianaBayou.webp",
+        "video": "mKY1Ojrs7Dg",
         "awt": "tbd"
     },
     {
@@ -185,7 +185,7 @@
     },
     {
         "id": 23,
-        "name": "Under the Sear ~ Journey of The Little Mermaid",
+        "name": "Under the Sea - Journey of The Little Mermaid",
         "type": "Slow Ride, Indoor",
         "img": "assets/images/mk/littleMermaid.jpeg",
         "video": "qnPz0mq2Fw8",
@@ -233,10 +233,26 @@
     },
     {
         "id": 28,
-        "name": "Walt Disney World Railroad - Main Stret, U.S.A.",
+        "name": "Walt Disney World Railroad - Main Street, U.S.A.",
         "type": "Kid Friendly",
         "img": "assets/images/mk/railroad.jpg",
         "video": "",
         "awt": 12
+    },
+    {
+        "id": 29,
+        "name": "Enchanted Tales with Belle",
+        "type": "Kid Friendly",
+        "img": "assets/images/mk/talesWithBell.jpg",
+        "video": "3oGCweQsi2A",
+        "awt": 12
+    },
+    {
+        "id": 30,
+        "name": "Main Street Vehicles",
+        "type": "Kid Friendly",
+        "img": "assets/images/mk/mainStreetVehicle.webp",
+        "video": "3oGCweQsi2A",
+        "awt": 1
     }
 ]
