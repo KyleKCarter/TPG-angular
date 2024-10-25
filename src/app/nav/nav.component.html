@@ -1,8 +1,62 @@
-<h1 routerLink='/'>Orlando Theme Park Guide</h1>
-<nav>
-  <div class="nav-bar">
+<h1 routerLink="/">Orlando Theme Park Guide</h1>
+
+<!-- menu 1 -->
+<!-- <div className="nav_bar">
       <div routerLinkActive="active current"><a routerLink='/'>Home</a></div>
       <div routerLinkActive="active current"><a routerLink='/resorts'>Resorts</a></div>
       <div routerLinkActive="active current"><a routerLink='/schedule'>Schedule</a></div>
-  </div>
-</nav>
+      <ul>
+        <li>
+          <a href="#">Menu</a>
+          <ul className="dropdown">
+            <li routerLinkActive="active current"><a routerLink='/'>Home</a></li>
+            <li routerLinkActive="active current"><a routerLink='/resorts'>Resorts</a></li>
+            <li routerLinkActive="active current"><a routerLink='/schedule'>Schedule</a></li>
+          </ul>
+        </li>
+      </ul>
+  </div> -->
+
+<!-- menu 2 -->
+<!-- <div className="nav_bar">
+    <ul>
+        <li>
+            <a href="#">Menu</a>
+            <ul className="dropdown">
+                <li routerLinkActive="active current"><a routerLink='/'>Home</a></li>
+                <li routerLinkActive="active current"><a routerLink='/resorts'>Resorts</a></li>
+                <li routerLinkActive="active current"><a routerLink='/schedule'>Schedule</a></li>
+            </ul>
+        </li>
+    </ul>
+</div> -->
+
+<!-- menu 3 -->
+<div class="menu-trigger" (click)="isOpen = !isOpen">
+  Menu <i [ngClass]="isOpen ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
+</div>
+<div class="menu" *ngIf="isOpen" [@dropDownMenu]>
+	<div class="menu-item">
+		<div routerLinkActive="active current"><a routerLink='/'>Home</a></div>
+		<div routerLinkActive="active current"><a routerLink='/resorts'>Resorts</a></div>
+		<div routerLinkActive="active current"><a routerLink='/schedule'>Schedule</a></div>
+	</div>
+</div>
+
+<!-- menu 4 -->
+<!-- <body>
+  <label class="hamburger-menu">
+    <input type="checkbox" />
+  </label>
+  <aside class="sidebar">
+    <nav>
+      <div routerLinkActive="active current"><a routerLink="/">Home</a></div>
+      <div routerLinkActive="active current">
+        <a routerLink="/resorts">Resorts</a>
+      </div>
+      <div routerLinkActive="active current">
+        <a routerLink="/schedule">Schedule</a>
+      </div>
+    </nav>
+  </aside>
+</body> -->

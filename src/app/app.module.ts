@@ -5,6 +5,8 @@ import { CommonModule } from '@angular/common';
 import { AppRoutingModule } from './app-routing.module'
 import { RouterModule } from '@angular/router';
 import { YouTubePlayerModule } from '@angular/youtube-player';
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+import { FormsModule } from "@angular/forms";
 
 
 //components
@@ -41,7 +43,9 @@ import { AttractionComponent } from './attraction/attraction.component';
     BrowserModule,
     AppRoutingModule,
     YouTubePlayerModule,
-    CommonModule
+    CommonModule,
+    BrowserAnimationsModule,
+    FormsModule
   ],
   providers: [
     ParkService,
