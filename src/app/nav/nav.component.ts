@@ -12,7 +12,7 @@ import { DropDownAnimation } from './animations';
 export class NavComponent implements OnInit {
   currentPath?: string;
   isOpen = false;
-  routeArr = [
+  routes = [
     {
       link: '/',
       page: 'Home'

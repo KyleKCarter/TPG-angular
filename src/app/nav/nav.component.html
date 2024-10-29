@@ -36,7 +36,7 @@
   Menu <i [ngClass]="isOpen ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
 </div>
 <div class="menu" *ngIf="isOpen" [@dropDownMenu]>
-	<div class="menu-item" *ngFor="let item of routeArr; let i = index">
+	<div class="menu-item" *ngFor="let item of routes; let i = index">
     <div routerLinkActive="active current"><span routerLink={{item.link}}>{{item.page}}</span></div>
 	</div>
 </div>
