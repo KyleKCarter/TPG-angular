@@ -1,3 +1,17 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+
+h1 {
+  color: #3182e6;
+  text-shadow: -.5px 0 #ffe600, 0 .5px #ffe600, .5px 0 #ffe600, 0 -.5px #ffe600;
+}
+
 /* menu 1 */
 /* .nav-bar {
     display: flex;
@@ -66,19 +80,26 @@ ul li:hover ul.dropdown {
     text-align: center;
     cursor: pointer;
     padding: 10px;
-    background-color: #456894;
+    max-width: 125px;
+    width: 100%;
+    height: 50%;
+    background-color: #3182e6;
+    border-radius: 20px;
+    color: #ededed;
+    margin-right: 50px;
+    margin-top: 20px;
   }
   
   .menu {
-    border-bottom: 1px solid #dcdcdc;
-    background: #39577d;
+    border-bottom: 1px solid #3182e6;
   }
   
   .menu-item {
     text-align: center;
+    color: #ededed;
     padding: 15px;
     border-bottom: 1px solid #dcdcdc;
-    max-width: 300px;
+    max-width: 75px;
     margin: auto;
     width: 100%;
     cursor: pointer;
@@ -92,7 +113,8 @@ ul li:hover ul.dropdown {
   }
   
   .menu-item:hover {
-    color: #c1c1c1;
+    color: #ffe600;
+    /* text-shadow: -.5px 0 #ffe600, 0 .5px #ffe600, .5px 0 #ffe600, 0 -.5px #ffe600; */
   }
   
   .gg-chevron-up {
