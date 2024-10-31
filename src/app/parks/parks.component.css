@@ -1,4 +1,8 @@
-.park-page {
+.parks-page {
+    margin-top: 75px;
+}
+
+.parks {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;

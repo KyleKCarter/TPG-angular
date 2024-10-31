@@ -1,8 +1,12 @@
+.rides-page {
+    margin-top: 75px;
+}
+
 .park-title {
     text-align: center;
 }
 
-.ride-page {
+.rides {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
