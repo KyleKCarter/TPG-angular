@@ -2,6 +2,7 @@ export interface RideResponse {
     ride_id: number,
     express_fastpass: boolean,
     park_name: any,
+    park_logo: any,
     ride_name: any,
     ride_location: any,
     ride_type: any,

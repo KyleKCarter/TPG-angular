@@ -13,6 +13,7 @@ import { RideResponse } from '../models/rides.model';
 })
 export class RidesComponent implements OnInit {
   park: string = '';
+  park_logo: string = '';
   rides?: RideResponse[];
   isFetching: boolean = false;
 
@@ -45,8 +46,11 @@ export class RidesComponent implements OnInit {
     this.isFetching = true;
     console.log(this.park)
     this._parkService.getParkRides(this.park).subscribe((response: any) => {
+      console.log(response)
       if (response) {
         this.rides = response;
+        //Implement NGRX in the future for below
+        // this.park_logo = response.park_logo;
         this.isFetching = false;
       }
     })

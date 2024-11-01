@@ -1,12 +1,19 @@
 <!-- based off paramater is what resort will display -->
 <div *ngIf='parks' class="parks-page">
     <button (click)="backClick()">Back</button>
-    <h1>{{resort}}</h1>
+    <!-- <h1>{{resort}}</h1> -->
+     <div class="resort-logo">
+         <img src="{{resort_logo}}" alt="resort logo">
+     </div>
     <div class="parks" *ngIf='disneyWorld'>
         <div *ngFor='let park of WDW'>
             <div class="park-tile" routerLink="{{park.park_name}}">
                 <img class="park-img" src="{{park.img}}" alt="">
-                <p>{{ park.park_name }}</p>
+                <div class="park-card-content-wrap">
+                    <div class="park-card-content">
+                        <h3 class="park-header">{{ park.park_name }}</h3>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -14,7 +21,15 @@
         <div *ngFor='let park of UO'>
             <div class="park-tile" routerLink="{{park.park_name}}">
                 <img class="park-img" src="{{park.img}}" alt="">
-                <p>{{ park.park_name }}</p>
+                <div class="park-card-content-wrap">
+                    <div class="park-card-content">
+                        <h3 class="park-header">{{ park.park_name }}</h3>
+                    </div>
+                    <!-- <div>
+                        <div>Tickets</div>
+                        <div>Details</div>
+                    </div> -->
+                </div>
             </div>
         </div>
     </div>

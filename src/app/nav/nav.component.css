@@ -10,6 +10,7 @@
 h1 {
   color: #3182e6;
   text-shadow: -.5px 0 #ffe600, 0 .5px #ffe600, .5px 0 #ffe600, 0 -.5px #ffe600;
+  cursor: pointer;
 }
 
 /* menu 1 */

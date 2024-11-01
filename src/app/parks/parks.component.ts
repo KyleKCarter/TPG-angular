@@ -19,6 +19,7 @@ export class ParksComponent implements OnInit {
   disneyWorld?: boolean;
   universalStudiosOrlando?: boolean;
   resort: any;
+  resort_logo: any;
   parks: any[] = [];
   WDW?: ParksResponse[];
   UO?: ParksResponse[];
@@ -60,13 +61,16 @@ export class ParksComponent implements OnInit {
     this._resortService.getResortParks(this.resort).subscribe((resorts: any) => {
       this.WDW = [];
       this.UO = [];
+      console.log(resorts)
       if (resorts) {
         this.parks.push(resorts);
         for (const resort of resorts) {
           if (resort.resort === 'Walt Disney World') {
             this.WDW.push(resort);
+            this.resort_logo = resort.resort_logo
           } else if (resort.resort === 'Universal Orlando Resort') {
             this.UO.push(resort);
+            this.resort_logo = resort.resort_logo
           }
         }
       }
