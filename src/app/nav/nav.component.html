@@ -33,7 +33,8 @@
     </div> -->
     
     <!-- menu 3 -->
-    <div class="menu-trigger" (click)="isOpen = !isOpen" (mouseenter)="isOpen = !isOpen" (mouseleave)="isOpen = !isOpen">
+    <!-- (click)="isOpen = !isOpen"  -->
+    <div class="menu-trigger" (mouseenter)="isOpen = !isOpen" (mouseleave)="isOpen = !isOpen">
       Menu <i [ngClass]="isOpen ? 'gg-chevron-up' : 'gg-chevron-down'"></i>
       <div class="menu" *ngIf="isOpen" [@dropDownMenu]>
         <div class="menu-item" *ngFor="let item of routes; let i = index">

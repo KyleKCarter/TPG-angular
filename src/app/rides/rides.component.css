@@ -1,19 +1,31 @@
 .rides-page {
     margin-top: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .park-title {
     text-align: center;
 }
 
+.park-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
 .rides {
     display: flex;
     flex-flow: wrap;
     justify-content: space-around;
+    width: 80%;
 }
 
 .ride-tile {
-    border: 1px solid grey;
+    /* border: 1px solid grey;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -21,8 +33,161 @@
     padding: 10px;
     margin: 15px;
     width: 400px;
+    cursor: pointer; */
+    cursor: pointer;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: 'Avenir Next', 'Avenir Next W05', 'Helvetica Neue', Helvetica, Arial, sans-serif !important;
+    font-size: 15px;
+    font-weight: 400;
+    height: 430.6px;
+    line-height: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    visibility: visible;
+    width: 248px;
+    margin: 20px;
 }
 
 .ride-img {
-    width: 250px;
+    /* width: 250px; */
+    background-position-x: 50%;
+    background-position-y: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: "Avenir Next", "Avenir Next W05", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 139px;
+    line-height: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 248px;
+    min-width: 248px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-align: center;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    visibility: visible;
+    width: 248px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ride-card-content-wrap {
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(194, 194, 194);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-style: solid;
+    border-bottom-width: 0.8px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(194, 194, 194);
+    border-left-style: solid;
+    border-left-width: 0.8px;
+    border-right-color: rgb(194, 194, 194);
+    border-right-style: solid;
+    border-right-width: 0.8px;
+    border-top-color: rgb(34, 34, 34);
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    font-family: "Avenir Next", "Avenir Next W05", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 291.6px;
+    line-height: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 248px;
+    min-width: 248px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    text-align: center;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    visibility: visible;
+    width: 248px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ride-card-content {
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: block;
+    font-family: "Avenir Next", "Avenir Next W05", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    height: 229.8px;
+    line-height: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    padding-bottom: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 24px;
+    text-align: center;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    visibility: visible;
+    width: 246.4px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.ride-header {
+    box-sizing: border-box;
+    color: rgb(34, 34, 34);
+    display: inline;
+    font-family: "Avenir Next", "Avenir Next W05", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 550;
+    height: auto;
+    line-height: 15px;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-size-adjust: 100%;
+    visibility: visible;
+    width: auto;
+    -webkit-font-smoothing: antialiased;
 }
