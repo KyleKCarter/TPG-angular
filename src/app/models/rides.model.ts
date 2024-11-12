@@ -3,6 +3,7 @@ export interface RideResponse {
     express_fastpass: boolean,
     park_name: any,
     park_logo: any,
+    resort: any,
     ride_name: any,
     ride_location: any,
     ride_type: any,
