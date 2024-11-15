@@ -8,6 +8,7 @@ export interface RideResponse {
     ride_location: any,
     ride_type: any,
     ride_img: any,
+    ride_banner: any,
     ride_video: any,
     awt: any
 }

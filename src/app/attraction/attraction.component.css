@@ -2,6 +2,60 @@
     margin-top: 75px;
 }
 
+.attraction-banner {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 400px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    visibility: visible;
+    width: 100%;
+}
+
+.attraction-content-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-left: 75px;
+}
+
 .attraction-image {
-    width: 600px;
+    width: 400px;
+    height: 300px;
+    margin-top: -96px;
+    position: relative;
+    z-index: 1;
+}
+
+.attraction-data {
+    border: 1px solid red;
+    margin-left: 25px;
+    width: 70%;
+}
+
+.attraction-name {
+
+}
+
+.attraction-type {
+    align-self: flex-end;
+}
+
+.attraction-wait-time {
+    align-self: flex-end;
 }

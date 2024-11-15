@@ -1,7 +1,15 @@
 <div class="attraction-page">
     <button (click)="backClick()">Rides</button>
     <div class="attraction-content">
-        <img class="attraction-image" src="{{ride.ride_img}}" alt="">
+        <img class="attraction-banner" src="{{ride.ride_banner}}" alt="attraction banner">
+        <div class="attraction-content-wrap">
+            <img class="attraction-image" src="{{ride.ride_img}}" alt="">
+            <div class="attraction-data">
+                <h3 class="attraction-name">{{ride.ride_name}}</h3>
+                <p class="attraction-type">{{ride.ride_type}}</p>
+                <p class="attraction-wait-time">Average wait time: {{ride.awt}}</p>
+            </div>
+        </div>
         <youtube-player 
             videoId="{{ride.ride_video}}" 
             suggestedQuality="highres" 
@@ -10,9 +18,4 @@
             [startSeconds]="1" 
             [endSeconds]="60">
         </youtube-player>
-        <div class="attraction-data">
-            <h3>{{ride.ride_name}}</h3>
-            <p>{{ride.ride_type}}</p>
-            <p>Average wait time: {{ride.awt}}</p>
-        </div>
     </div>

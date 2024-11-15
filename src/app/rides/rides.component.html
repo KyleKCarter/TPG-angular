@@ -6,7 +6,8 @@
     </div> -->
     <div class="rides">
         <div *ngFor="let ride of rides">
-            <div class="ride-tile" routerLink="{{ride.ride_name}}">
+            <!-- <div class="ride-tile" routerLink="{{ride.ride_name}}"> -->
+            <div class="ride-tile">
                 <div class="ride-card-top">
                     <img class="ride-img" src="{{ride.ride_img}}" alt="">
                 </div>
@@ -23,7 +24,8 @@
                     </div>
                 </div>
                 <div class="ride-card-bottom">
-                    <a href="localhost:4200/resorts/{{ride.resort}}/{{ride.park_name}}/{{ride.ride_name}}" class="ride-button-theme">
+                    <!-- <a href="localhost:4200/resorts/{{ride.resort}}/{{ride.park_name}}/{{ride.ride_name}}" class="ride-button-theme"> -->
+                    <a routerLink="{{ride.ride_name}}" class="ride-button-theme">
                         <div class="label-container">
                             <span class="label">Details</span>
                         </div>
