@@ -36,6 +36,7 @@ export class AttractionComponent implements OnInit {
         console.log(this.attraction)
       });
       this.getAttraction();
+      this.closeModel();
   }
 
   getAttraction(): void {
@@ -50,6 +51,20 @@ export class AttractionComponent implements OnInit {
         }
       }
     })
+  }
+
+  openModel() {
+    const modelDiv = document.getElementById('myModal');
+    if( modelDiv != null ) {
+      modelDiv.style.display = 'block'
+    }
+  }
+
+  closeModel() {
+    const modelDiv = document.getElementById('myModal');
+    if( modelDiv != null ) {
+      modelDiv.style.display = 'none'
+    }
   }
 
   backClick(): void {

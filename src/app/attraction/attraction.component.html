@@ -4,18 +4,40 @@
         <img class="attraction-banner" src="{{ride.ride_banner}}" alt="attraction banner">
         <div class="attraction-content-wrap">
             <img class="attraction-image" src="{{ride.ride_img}}" alt="">
-            <div class="attraction-data">
+            <div class="attraction-name-description">
                 <h3 class="attraction-name">{{ride.ride_name}}</h3>
-                <p class="attraction-type">{{ride.ride_type}}</p>
+                <!-- <span>{{ride.description}}</span> -->
+                <span>Description of the ride placeholder</span>
+            </div>
+            <div class="attraction-data">
+                <button class="attraction-video" (click)="openModel()">Ride Video</button>
+                <p class="attraction-type">Ride Type: {{ride.ride_type}}</p>
                 <p class="attraction-wait-time">Average wait time: {{ride.awt}}</p>
             </div>
         </div>
-        <youtube-player 
+</div>
+
+<!-- The Modal -->
+<div class="modal" id="myModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+  
+        <!-- Modal Header -->
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" (click)="closeModel()">X</button>
+        </div>
+  
+        <!-- Modal body -->
+        <div class="modal-body">
+            <youtube-player
             videoId="{{ride.ride_video}}" 
             suggestedQuality="highres" 
-            [height]="400" 
-            [width]="600"
+            [height]="550" 
+            [width]="1000"
             [startSeconds]="1" 
             [endSeconds]="60">
-        </youtube-player>
+            </youtube-player>
+        </div>
+      </div>
     </div>
+  </div>
