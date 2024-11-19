@@ -10,7 +10,7 @@
                 <span>Description of the ride placeholder</span>
             </div>
             <div class="attraction-data">
-                <button class="attraction-video" (click)="openModel()">Ride Video</button>
+                <button *ngIf="ride.ride_video" class="attraction-video" (click)="openModel()">Video</button>
                 <p class="attraction-type">Ride Type: {{ride.ride_type}}</p>
                 <p class="attraction-wait-time">Average wait time: {{ride.awt}}</p>
             </div>
