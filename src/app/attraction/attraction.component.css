@@ -2,6 +2,203 @@
     margin-top: 75px;
 }
 
+.attraction-banner {
+    box-sizing: border-box;
+    color: rgb(51, 51, 51);
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    height: 400px;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: relative;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    visibility: visible;
+    width: 100%;
+}
+
+.attraction-content-wrap {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-left: 75px;
+}
+
 .attraction-image {
-    width: 600px;
+    width: 400px;
+    height: 300px;
+    margin-top: -96px;
+    position: relative;
+    z-index: 1;
+}
+
+.attraction-name-description {
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 35%;
+}
+
+.attraction-data {
+    margin-left: 25px;
+    margin-top: 15px;
+    width: 20%;
+}
+
+.attraction-name {
+
+}
+
+.attraction-video {
+    justify-self: end;
+}
+
+.attraction-type {
+    justify-self: end;
+    padding-right: 25px;
+}
+
+.attraction-wait-time {
+    justify-self: end;
+    padding-right: 25px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+}
+
+.modal-dialog {
+    background-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(0, 0, 0);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-style: none;
+    border-bottom-width: 0px;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgb(0, 0, 0);
+    border-left-style: none;
+    border-left-width: 0px;
+    border-right-color: rgb(0, 0, 0);
+    border-right-style: none;
+    border-right-width: 0px;
+    border-top-color: rgb(0, 0, 0);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-style: none;
+    border-top-width: 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: block;
+    font-family: "Avenir Next", "Avenir Next W05", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 700px;
+    inset-block-end: 0px;
+    inset-block-start: 0px;
+    inset-inline-end: 0px;
+    inset-inline-start: 0px;
+    line-height: 24px;
+    margin-bottom: 32.1094px;
+    margin-top: 32.0938px;
+    max-height: 700px;
+    max-width: calc(100% - 38px);
+    overflow-x: visible;
+    overflow-y: visible;
+    overlay: auto;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 0px;
+    position: fixed;
+    text-size-adjust: 100%;
+    user-select: text;
+    visibility: visible;
+    width: 1344.05px;
+    -webkit-font-smoothing: antialiased;
+    -webkit-border-image: none;
+    z-index: 1055;
+    justify-self: center;
+     
+}
+
+.modal-content {
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-size: auto;
+    border-bottom-color: rgb(194, 194, 194);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-left-color: rgb(194, 194, 194);
+    border-right-color: rgb(194, 194, 194);
+    border-top-color: rgb(194, 194, 194);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 8px 0px;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    font-family: "Avenir Next", "Avenir Next W05", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    height: 100%;
+    line-height: 24px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    max-width: 1344.05px;
+    min-width: 1344.05px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 64px;
+    position: relative;
+    text-size-adjust: 100%;
+    unicode-bidi: isolate;
+    user-select: text;
+    visibility: visible;
+    width: 1300px;
+    -webkit-font-smoothing: antialiased;
+}
+
+.modal-header {
+    justify-self: end;
+    margin-right: 10px;
+}
+
+.button-close {
+    
+}
+
+.modal-body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
 }

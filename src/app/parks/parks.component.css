@@ -2,6 +2,15 @@
     margin-top: 75px;
 }
 
+.back-button {
+    align-self: flex-start;
+    margin-left: 15px;
+}
+
+.back-button:hover {
+    cursor: pointer;
+}
+
 h1 {
     text-align: center;
 }
