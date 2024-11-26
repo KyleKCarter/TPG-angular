@@ -6,8 +6,7 @@
             <img class="attraction-image" src="{{ride.ride_img}}" alt="">
             <div class="attraction-name-description">
                 <h3 class="attraction-name">{{ride.ride_name}}</h3>
-                <!-- <span>{{ride.description}}</span> -->
-                <span>Description of the ride placeholder</span>
+                <span>{{ride.description}}</span>
             </div>
             <div class="attraction-data">
                 <button *ngIf="ride.ride_video" class="attraction-video" (click)="openModel()">Video</button>
